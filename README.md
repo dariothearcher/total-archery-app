@@ -6,6 +6,8 @@
 
 <p align="center"><a href="https://github.com/dariothearcher/total-archery-app/releases/latest"><b>⬇️ Scarica l'ultima versione (APK per Android)</b></a></p>
 
+> **Per ora Total Archery è disponibile solo per Android.** La versione per iPhone (iOS) arriverà presto.
+
 ## Cosa fa
 
 - **Segni le frecce toccando la visuale** (o con la tastiera): il punteggio lo fa l'app.
@@ -17,7 +19,7 @@
 Outdoor, indoor, campagna e 3D; olimpico, compound, arco nudo, longbow e tradizionale.
 In italiano, inglese, spagnolo, francese e tedesco.
 
-## Come installarla
+## Come installarla (Android)
 
 1. Apri la [pagina dell'ultima versione](https://github.com/dariothearcher/total-archery-app/releases/latest) dal telefono Android.
 2. Tocca il file `.apk` in fondo, sotto "Assets", per scaricarlo.
@@ -27,6 +29,24 @@ In italiano, inglese, spagnolo, francese e tedesco.
 Per aggiornare basta installare il nuovo APK sopra il vecchio: i dati restano.
 Se avevi una versione di prova, va disinstallata prima.
 
-## Contatti
+## Privacy
 
-Novità e aggiornamenti su Instagram. Per segnalare un problema apri una [issue](https://github.com/dariothearcher/total-archery-app/issues).
+**I tuoi dati restano sul telefono.** Total Archery non raccoglie, non invia e non vende nessun dato.
+
+- Sessioni, frecce, statistiche, attrezzatura, messa a punto e diario sono salvati solo nella memoria del telefono, dentro l'app. Non c'è un server e non c'è un account: nessuno, nemmeno chi ha fatto l'app, può vederli.
+- L'app non ha il permesso di collegarsi a internet: niente statistiche d'uso, pubblicità, segnalazione degli errori o servizi di altri.
+- I dati escono dal telefono solo quando lo decidi tu (backup, esportazione in PDF o CSV, immagine da condividere) e vanno dove scegli; da lì vale l'informativa del servizio che usi.
+- Se sul telefono è attivo il backup di Google, Android può copiare i dati dell'app nel tuo account Google: è una funzione del telefono, che gestisci nelle impostazioni di Android.
+- Disinstallando l'app, o con "Cancella dati" nelle impostazioni di Android, tutti i dati vengono eliminati dal telefono.
+- Se in futuro l'app avrà funzioni online o piani in abbonamento, questa informativa verrà aggiornata prima che cambi qualcosa.
+
+La stessa informativa è nell'app, in **Altro → Privacy**. Scaricando l'app da questa pagina valgono anche le [condizioni](https://docs.github.com/it/site-policy/github-terms/github-terms-of-service) e l'[informativa privacy](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement) di GitHub.
+
+*Aggiornata il 28 settembre 2026.*
+
+## Chi pubblica l'app
+
+Total Archery è un progetto personale di Dario Giovannetti.
+Per domande, richieste o segnalazioni: **totalarchery10@gmail.com**, oppure apri una [issue](https://github.com/dariothearcher/total-archery-app/issues).
+
+Novità e aggiornamenti su Instagram.
