@@ -1,0 +1,59 @@
+Total Archery
+Copyright (c) 2026 Dario Giovannetti. Tutti i diritti riservati. All rights reserved.
+
+ITALIANO
+
+Total Archery (l'app per Android, la demo nel browser e i file di questo
+repository) è un software proprietario. Il codice sorgente non è pubblico.
+
+È consentito, gratuitamente:
+- scaricare l'app da questa pagina e installarla sui propri dispositivi per
+  uso personale;
+- usare la demo nel browser.
+
+Non è consentito, senza il permesso scritto dell'autore:
+- copiare, modificare, decompilare, disassemblare o tentare di ricavare il
+  codice sorgente dell'app o della demo, salvo nei limiti in cui la legge
+  lo consente espressamente;
+- ridistribuire, pubblicare, vendere o concedere in licenza l'app, la demo o
+  parti di esse, anche modificate;
+- usare il nome "Total Archery", l'icona o la grafica dell'app per altri
+  prodotti.
+
+L'app e la demo sono fornite "così come sono", senza garanzie di alcun tipo,
+nei limiti consentiti dalla legge.
+
+L'app usa software di terzi (Flutter e altre librerie) e i caratteri
+Barlow Condensed e Source Sans 3 (SIL Open Font License 1.1): restano sotto
+le loro licenze, consultabili nell'app in Altro > Licenze e nella cartella
+fonts/ di questo repository.
+
+Contatti: totalarchery10@gmail.com
+
+ENGLISH
+
+Total Archery (the Android app, the browser demo and the files in this
+repository) is proprietary software. The source code is not public.
+
+You may, free of charge:
+- download the app from this page and install it on your own devices for
+  personal use;
+- use the browser demo.
+
+Without the author's written permission you may not:
+- copy, modify, decompile, disassemble or attempt to derive the source code
+  of the app or the demo, except to the extent the law expressly allows it;
+- redistribute, publish, sell or sublicense the app, the demo or any part of
+  them, modified or not;
+- use the name "Total Archery", the app icon or its graphics for other
+  products.
+
+The app and the demo are provided "as is", without warranty of any kind, to
+the extent permitted by law.
+
+The app uses third-party software (Flutter and other libraries) and the
+Barlow Condensed and Source Sans 3 fonts (SIL Open Font License 1.1): they
+remain under their own licences, shown in the app under More > Licences and
+in the fonts/ folder of this repository.
+
+Contact: totalarchery10@gmail.com

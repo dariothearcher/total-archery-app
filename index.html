@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Total Archery – l’app per il tiro con l’arco</title>
+<meta name="description" content="Segna le frecce, guarda come tiri, migliora. Outdoor, indoor, campagna e 3D. I dati restano sul telefono.">
+<meta name="theme-color" content="#1D5A3A">
+<link rel="icon" type="image/png" href="icon.png">
+<meta property="og:title" content="Total Archery">
+<meta property="og:description" content="L’app per chi tira con l’arco: segna, guarda come tiri, migliora.">
+<meta property="og:image" content="https://dariothearcher.github.io/total-archery-app/share.png">
+<meta property="og:url" content="https://dariothearcher.github.io/total-archery-app/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+@font-face { font-family: "Barlow Condensed"; src: url(fonts/BarlowCondensed-SemiBold.ttf); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url(fonts/BarlowCondensed-Bold.ttf); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url(fonts/SourceSans3-Regular.ttf); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url(fonts/SourceSans3-Semibold.ttf); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url(fonts/SourceSans3-Bold.ttf); font-weight: 700; font-display: swap; }
+
+:root {
+  --forest: #1D5A3A; --forest-deep: #123A26; --gold: #F2C832; --ink: #1B211D;
+  --cream: #F4F2EC; --paper: #FFFFFF; --muted: #5A625C; --line: #DAD6CB; --tile: #E7ECE3;
+  --on-forest: #F4F2EC; --on-forest-muted: #CFE3D6;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--cream); color: var(--ink); font: 400 17px/1.55 "Source Sans 3", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+[lang="en"] { display: none; }
+html.en [lang="en"] { display: revert; }
+html.en [lang="it"] { display: none; }
+a { color: inherit; }
+h1, h2, h3 { font-family: "Barlow Condensed", sans-serif; font-weight: 700; letter-spacing: .2px; margin: 0; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+
+/* Top bar */
+.bar { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: "Barlow Condensed"; font-weight: 700; font-size: 24px; text-decoration: none; color: var(--on-forest); }
+.brand svg { width: 36px; height: 36px; }
+.lang { display: flex; border: 1.5px solid rgba(244,242,236,.45); border-radius: 999px; overflow: hidden; }
+.lang button { font: 600 14px "Source Sans 3"; color: var(--on-forest); background: none; border: 0; padding: 8px 14px; min-height: 44px; cursor: pointer; }
+.lang button[aria-pressed="true"] { background: var(--on-forest); color: var(--forest); }
+
+/* Hero */
+.hero { background: radial-gradient(1200px 600px at 85% 20%, #25704A 0%, var(--forest) 55%, var(--forest-deep) 100%); color: var(--on-forest); overflow: hidden; }
+.hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px; align-items: center; padding: 40px 0 72px; }
+.kicker { display: inline-block; font: 600 14px "Source Sans 3"; letter-spacing: 1.4px; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+.hero h1 { font-size: clamp(50px, 6.4vw, 84px); line-height: .94; }
+.hero h1 em { font-style: normal; color: var(--gold); }
+.lead { font-size: 21px; line-height: 1.45; color: var(--on-forest-muted); margin: 20px 0 30px; max-width: 30ch; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn { display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 24px; border-radius: 14px; font: 700 22px "Barlow Condensed"; letter-spacing: .3px; text-decoration: none; transition: transform .15s ease; }
+.btn:active { transform: translateY(1px); }
+.btn svg { width: 22px; height: 22px; }
+.btn-gold { background: var(--gold); color: var(--ink); }
+.btn-gold:hover { background: #F6D55A; }
+.btn-line { border: 2px solid var(--on-forest); color: var(--on-forest); }
+.btn-line:hover { background: rgba(244,242,236,.08); }
+.meta { margin: 12px 0 0; font-size: 14px; color: var(--on-forest-muted); }
+.soon { margin-top: 18px; font-size: 15px; color: var(--on-forest-muted); }
+.soon b { color: var(--on-forest); font-weight: 600; }
+
+/* The live demo in a phone */
+.phone { justify-self: center; width: 372px; height: 760px; padding: 10px; background: #0C1F15; border-radius: 46px; box-shadow: 0 40px 90px rgba(0,0,0,.4), 0 0 0 1px rgba(255,255,255,.06) inset; }
+.phone { position: relative; }
+.phone iframe { position: relative; width: 100%; height: 100%; border: 0; border-radius: 36px; background: transparent; display: block; }
+.loading { position: absolute; inset: 10px; border-radius: 36px; background: #121614; display: grid; place-content: center; justify-items: center; gap: 14px; color: var(--on-forest-muted); font-size: 15px; }
+.loading svg { width: 72px; height: 72px; animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .45; } }
+@media (prefers-reduced-motion: reduce) { .loading svg { animation: none; } }
+.mobile-shot { display: none; }
+.phone-note { text-align: center; font-size: 14px; color: var(--on-forest-muted); margin-top: 14px; }
+
+/* Sections */
+section { padding: 80px 0; }
+.section-head { max-width: 640px; margin-bottom: 36px; }
+.section-head h2 { font-size: clamp(38px, 5vw, 54px); line-height: 1; }
+.section-head p { color: var(--muted); font-size: 19px; margin: 12px 0 0; }
+.features { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.feature { background: var(--paper); border-radius: 18px; padding: 24px; border: 1px solid var(--line); }
+.feature-icon { display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: var(--tile); color: var(--forest); margin-bottom: 14px; }
+.feature-icon svg { width: 26px; height: 26px; }
+.feature h3 { font-size: 26px; line-height: 1.05; margin-bottom: 8px; }
+.feature p { margin: 0; color: var(--muted); }
+.showcase { display: flex; flex-direction: column; gap: 56px; }
+.row { display: grid; grid-template-columns: 300px 1fr; gap: 56px; align-items: center; }
+.row.flip { grid-template-columns: 1fr 300px; }
+.row.flip img { order: 2; }
+.row img { width: 300px; height: auto; border-radius: 30px; border: 8px solid #0C1F15; box-shadow: 0 24px 50px rgba(18,58,38,.22); }
+.row h3 { font-size: clamp(32px, 4vw, 44px); line-height: 1; margin-bottom: 12px; }
+.row p { font-size: 19px; color: var(--muted); margin: 0; max-width: 46ch; }
+.more { list-style: none; padding: 24px 0 0; margin: 48px 0 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; color: var(--muted); }
+.more b { color: var(--ink); font-family: "Barlow Condensed"; font-size: 22px; display: block; }
+.disciplines { margin-top: 28px; color: var(--muted); font-size: 16px; }
+.disciplines b { color: var(--ink); }
+
+/* Get it */
+.get { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.get-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.card { border-radius: 20px; padding: 28px; border: 1px solid var(--line); background: var(--cream); }
+.card h3 { font-size: 30px; margin-bottom: 10px; }
+.card ol { margin: 0 0 22px; padding-left: 22px; }
+.card li { margin-bottom: 6px; }
+.card .btn-gold { font-size: 20px; }
+.stores { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+.store { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; border-radius: 14px; background: var(--paper); border: 1px dashed var(--line); }
+.store b { font-family: "Barlow Condensed"; font-size: 22px; }
+.pill { font: 600 13px "Source Sans 3"; letter-spacing: .6px; text-transform: uppercase; background: var(--tile); color: var(--forest); padding: 6px 10px; border-radius: 999px; white-space: nowrap; }
+
+/* Privacy */
+.privacy { background: var(--forest); color: var(--on-forest); }
+.privacy .section-head p { color: var(--on-forest-muted); }
+.privacy-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.privacy-grid div { border-top: 2px solid var(--gold); padding-top: 14px; }
+.privacy-grid h3 { font-size: 24px; margin-bottom: 6px; }
+.privacy-grid p { margin: 0; color: var(--on-forest-muted); }
+
+footer { padding: 36px 0 48px; color: var(--muted); font-size: 15px; }
+.foot { display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: space-between; align-items: center; }
+.foot a { color: var(--forest); font-weight: 600; }
+
+a:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 10px; }
+.get a:focus-visible, footer a:focus-visible { outline-color: var(--forest); }
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; padding-bottom: 56px; }
+  .phone-col { display: none; }
+  .mobile-shot { display: block; margin: 36px auto 0; width: min(78%, 300px); border-radius: 28px; border: 8px solid #0C1F15; box-shadow: 0 30px 60px rgba(0,0,0,.35); }
+  .features, .privacy-grid, .get-grid, .more { grid-template-columns: 1fr; }
+  .row, .row.flip { grid-template-columns: 1fr; gap: 20px; }
+  .row.flip img { order: 0; }
+  .row img { width: min(70%, 260px); justify-self: center; }
+  section { padding: 56px 0; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <nav class="bar" aria-label="Total Archery">
+      <a class="brand" href="./"><svg viewBox="18 18 72 72" aria-hidden="true"><clipPath id="b"><circle cx="54" cy="54" r="36"/></clipPath><g clip-path="url(#b)"><rect width="108" height="108" fill="#1D5A3A"/><circle cx="54.0" cy="54.0" r="5.5" fill="#F2C832"/><circle cx="54.0" cy="54.0" r="11.9" fill="none" stroke="#F2C832" stroke-width="3.8000000000000007"/><circle cx="54.0" cy="54.0" r="20.299999999999997" fill="none" stroke="#F2C832" stroke-width="3.8000000000000007"/><path d="M35.47 74.36 L35.26 79.81 L40.92 74.15 L41.84 68.00 L72.95 36.89 L74.44 40.21 L77.69 30.31 L67.79 33.56 L71.11 35.05 L40.00 66.16 L33.85 67.08 L28.19 72.74 L33.64 72.53 Z" fill="#1D5A3A" stroke="#1D5A3A" stroke-width="3.0" stroke-linejoin="round"/><path d="M35.47 74.36 L35.26 79.81 L40.92 74.15 L41.84 68.00 L72.95 36.89 L74.44 40.21 L77.69 30.31 L67.79 33.56 L71.11 35.05 L40.00 66.16 L33.85 67.08 L28.19 72.74 L33.64 72.53 Z" fill="#F4F2EC"/></g></svg>Total Archery</a>
+      <div class="lang" role="group" aria-label="Lingua / Language">
+        <button type="button" data-lang="it" aria-pressed="true">IT</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+    <div class="hero-grid">
+      <div>
+        <span class="kicker"><span lang="it">L’app per il tiro con l’arco</span><span lang="en">The archery app</span></span>
+        <h1><span lang="it">Segna.<br>Guarda come tiri.<br><em>Migliora.</em></span><span lang="en">Score.<br>See how you shoot.<br><em>Get better.</em></span></h1>
+        <p class="lead"><span lang="it">Punteggi, statistiche, campagna e 3D, attrezzatura: tutto quello che serve a un arciere, sul telefono.</span><span lang="en">Scores, statistics, field and 3D, equipment: everything an archer needs, on the phone.</span></p>
+        <div class="actions">
+          <a class="btn btn-gold" href="https://github.com/dariothearcher/total-archery-app/releases/latest/download/total-archery.apk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span lang="it">Scarica per Android</span><span lang="en">Download for Android</span></a>
+          <a class="btn btn-line" href="demo/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg><span lang="it">Prova la demo</span><span lang="en">Try the demo</span></a>
+        </div>
+        <p class="meta">APK · 77 MB · <span lang="it">versione 0.48</span><span lang="en">version 0.48</span> · Android 7+</p>
+        <p class="soon"><span lang="it"><b>Presto</b> su Google Play e App Store.</span><span lang="en"><b>Coming soon</b> to Google Play and the App Store.</span></p>
+        <img class="mobile-shot" src="shots/riepilogo.png" alt="" width="360" height="760">
+      </div>
+      <div class="phone-col">
+        <div class="phone"><div class="loading" aria-hidden="true"><svg viewBox="18 18 72 72" aria-hidden="true"><clipPath id="b"><circle cx="54" cy="54" r="36"/></clipPath><g clip-path="url(#b)"><rect width="108" height="108" fill="#1D5A3A"/><circle cx="54.0" cy="54.0" r="5.5" fill="#F2C832"/><circle cx="54.0" cy="54.0" r="11.9" fill="none" stroke="#F2C832" stroke-width="3.8000000000000007"/><circle cx="54.0" cy="54.0" r="20.299999999999997" fill="none" stroke="#F2C832" stroke-width="3.8000000000000007"/><path d="M35.47 74.36 L35.26 79.81 L40.92 74.15 L41.84 68.00 L72.95 36.89 L74.44 40.21 L77.69 30.31 L67.79 33.56 L71.11 35.05 L40.00 66.16 L33.85 67.08 L28.19 72.74 L33.64 72.53 Z" fill="#1D5A3A" stroke="#1D5A3A" stroke-width="3.0" stroke-linejoin="round"/><path d="M35.47 74.36 L35.26 79.81 L40.92 74.15 L41.84 68.00 L72.95 36.89 L74.44 40.21 L77.69 30.31 L67.79 33.56 L71.11 35.05 L40.00 66.16 L33.85 67.08 L28.19 72.74 L33.64 72.53 Z" fill="#F4F2EC"/></g></svg><span lang="it">Carico la demo…</span><span lang="en">Loading the demo…</span></div><iframe src="demo/" title="Total Archery demo" loading="lazy"></iframe></div>
+        <p class="phone-note"><span lang="it">La demo vera: toccala.</span><span lang="en">The real demo: try it.</span></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="funzioni">
+    <div class="wrap">
+      <div class="section-head">
+        <h2><span lang="it">Fatta per il campo</span><span lang="en">Made for the range</span></h2>
+        <p><span lang="it">Tasti grandi, testi chiari, funziona anche senza rete: pensata per usarla sulla linea di tiro.</span><span lang="en">Big keys, clear text, works with no signal: made to be used on the shooting line.</span></p>
+      </div>
+      <div class="showcase">
+        <div class="row">
+          <img src="shots/segna.png" alt="" width="360" height="760" loading="lazy">
+          <div><h3><span lang="it">Segni sulla visuale</span><span lang="en">Score on the face</span></h3><p><span lang="it">Tocchi dove è arrivata la freccia e il punteggio lo fa l’app. Trispot, campagna, 3D: ogni bersaglio ha la sua visuale. Se preferisci, c’è la tastiera.</span><span lang="en">Tap where the arrow landed and the app does the maths. Trispot, field, 3D: every target has its face. The keypad is there if you prefer.</span></p></div>
+        </div>
+        <div class="row flip">
+          <img src="shots/riepilogo.png" alt="" width="360" height="760" loading="lazy">
+          <div><h3><span lang="it">Il riepilogo appena finisci</span><span lang="en">Your summary, straight away</span></h3><p><span lang="it">Punti, media, X e 10, il confronto con la volta prima e la mappa degli impatti. Quando è un record, te lo dice.</span><span lang="en">Points, average, X and 10s, last time compared and the impact map. When it is a record, it tells you.</span></p></div>
+        </div>
+        <div class="row">
+          <img src="shots/statistiche.png" alt="" width="360" height="760" loading="lazy">
+          <div><h3><span lang="it">Statistiche che si capiscono</span><span lang="en">Statistics that make sense</span></h3><p><span lang="it">Dove vanno le frecce, la rosata, la stanchezza, come cambia la media sessione dopo sessione. Detto semplice.</span><span lang="en">Where your arrows land, grouping, fatigue, how your average moves session after session. Plainly said.</span></p></div>
+        </div>
+      </div>
+      <ul class="more">
+        <li><span lang="it"><b>Campagna e 3D</b> · percorsi Hunter &amp; Field, il tuo campo 3D, stima delle distanze, tacche del mirino</span><span lang="en"><b>Field and 3D</b> · Hunter &amp; Field courses, your 3D range, distance estimation, sight marks</span></li>
+        <li><span lang="it"><b>Attrezzatura</b> · archi, frecce, messa a punto con il prima e dopo</span><span lang="en"><b>Equipment</b> · bows, arrows, tuning with before and after</span></li>
+        <li><span lang="it"><b>Allenamento</b> · esercizi guidati, scontri, timer di tiro</span><span lang="en"><b>Training</b> · guided drills, matches, shooting timer</span></li>
+      </ul>
+      <p class="disciplines"><span lang="it"><b>Outdoor, indoor, campagna e 3D</b> · olimpico, compound, arco nudo, longbow e tradizionale · regolamento World Archery.</span><span lang="en"><b>Outdoor, indoor, field and 3D</b> · recurve, compound, barebow, longbow and traditional · World Archery rules.</span></p>
+    </div>
+  </section>
+
+  <section class="get" id="scarica">
+    <div class="wrap">
+      <div class="section-head">
+        <h2><span lang="it">Come averla</span><span lang="en">How to get it</span></h2>
+        <p><span lang="it">Oggi per Android, gratis. Gli store ufficiali arrivano presto.</span><span lang="en">Android today, for free. The official stores are coming soon.</span></p>
+      </div>
+      <div class="get-grid">
+        <div class="card">
+          <h3>Android</h3>
+          <ol>
+            <li><span lang="it">Apri la pagina della versione più recente dal telefono.</span><span lang="en">Open the latest release page on your phone.</span></li>
+            <li><span lang="it">Tocca il file <code>.apk</code> per scaricarlo e aprilo.</span><span lang="en">Tap the <code>.apk</code> file to download it, then open it.</span></li>
+            <li><span lang="it">La prima volta consenti l’installazione da questa origine, poi <b>Installa</b>.</span><span lang="en">The first time, allow installing from this source, then tap <b>Install</b>.</span></li>
+          </ol>
+          <a class="btn btn-gold" href="https://github.com/dariothearcher/total-archery-app/releases/latest"><span lang="it">Scarica l’ultima versione</span><span lang="en">Download the latest version</span></a>
+        </div>
+        <div class="card">
+          <h3><span lang="it">Prossimamente</span><span lang="en">Coming soon</span></h3>
+          <div class="stores">
+            <div class="store"><b>Google Play</b><span class="pill"><span lang="it">Presto</span><span lang="en">Soon</span></span></div>
+            <div class="store"><b>App Store (iPhone)</b><span class="pill"><span lang="it">Presto</span><span lang="en">Soon</span></span></div>
+            <div class="store"><b><span lang="it">Demo nel browser</span><span lang="en">Browser demo</span></b><a class="pill" href="demo/"><span lang="it">Provala ora</span><span lang="en">Try it now</span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy" id="privacy">
+    <div class="wrap">
+      <div class="section-head">
+        <h2><span lang="it">I tuoi dati restano sul telefono</span><span lang="en">Your data stays on your phone</span></h2>
+        <p><span lang="it">Total Archery non raccoglie, non invia e non vende nessun dato.</span><span lang="en">Total Archery does not collect, send or sell any data.</span></p>
+      </div>
+      <div class="privacy-grid">
+        <div><h3><span lang="it">Niente account</span><span lang="en">No account</span></h3><p><span lang="it">Non c’è un server: nessuno, nemmeno chi ha fatto l’app, vede le tue sessioni.</span><span lang="en">There is no server: nobody, not even the maker, sees your sessions.</span></p></div>
+        <div><h3><span lang="it">Niente internet</span><span lang="en">No internet</span></h3><p><span lang="it">L’app non ha il permesso di collegarsi: niente pubblicità né statistiche d’uso.</span><span lang="en">The app has no permission to go online: no ads, no usage tracking.</span></p></div>
+        <div><h3><span lang="it">Decidi tu</span><span lang="en">Your call</span></h3><p><span lang="it">I dati escono solo se fai un backup, esporti un PDF o condividi un’immagine. Questo sito ricorda solo la lingua che scegli, nel tuo browser.</span><span lang="en">Data only leaves when you back up, export a PDF or share an image. This site only remembers your language, in your browser.</span></p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Dario Giovannetti · <span lang="it">Tutti i diritti riservati</span><span lang="en">All rights reserved</span></span>
+    <span><a href="mailto:totalarchery10@gmail.com">totalarchery10@gmail.com</a> · <a href="https://github.com/dariothearcher/total-archery-app#privacy"><span lang="it">Informativa privacy</span><span lang="en">Privacy policy</span></a> · <a href="https://github.com/dariothearcher/total-archery-app/blob/main/LICENSE"><span lang="it">Licenza</span><span lang="en">Licence</span></a></span>
+  </div>
+</footer>
+
+<script>
+  // The language: the one chosen before, else the browser's.
+  const root = document.documentElement;
+  function setLang(lang) {
+    root.classList.toggle('en', lang === 'en');
+    root.lang = lang;
+    document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
+    try { localStorage.setItem('ta-lang', lang); } catch (e) {}
+  }
+  let saved = null;
+  try { saved = localStorage.getItem('ta-lang'); } catch (e) {}
+  setLang(saved || ((navigator.language || 'it').toLowerCase().startsWith('it') ? 'it' : 'en'));
+  document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+  const demo = document.querySelector('.phone iframe');
+  if (demo) {
+    let using = false;
+    const phone = demo.parentElement;
+    phone.addEventListener('pointerenter', () => { using = true; });
+    phone.addEventListener('pointerleave', () => { using = false; });
+    const giveBack = () => { if (!using && document.activeElement === demo) demo.blur(); };
+    window.addEventListener('blur', () => setTimeout(giveBack, 0));
+    demo.addEventListener('load', () => { for (const ms of [100, 1000, 3000, 6000]) setTimeout(giveBack, ms); });
+  }
+</script>
+</body>
+</html>

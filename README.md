@@ -4,7 +4,9 @@
 
 <p align="center">L'app per chi tira con l'arco: segna, guarda come tiri, migliora.</p>
 
-<p align="center"><a href="https://github.com/dariothearcher/total-archery-app/releases/latest"><b>⬇️ Scarica l'ultima versione (APK per Android)</b></a></p>
+<p align="center"><a href="https://github.com/dariothearcher/total-archery-app/releases/latest"><b>⬇️ Scarica l'ultima versione (APK per Android)</b></a> · <a href="https://dariothearcher.github.io/total-archery-app/demo/"><b>▶️ Prova la demo nel browser</b></a></p>
+
+<p align="center"><a href="https://dariothearcher.github.io/total-archery-app/">dariothearcher.github.io/total-archery-app</a></p>
 
 > **Per ora Total Archery è disponibile solo per Android.** La versione per iPhone (iOS) arriverà presto.
 
@@ -39,6 +41,7 @@ Se avevi una versione di prova, va disinstallata prima.
 - Se sul telefono è attivo il backup di Google, Android può copiare i dati dell'app nel tuo account Google: è una funzione del telefono, che gestisci nelle impostazioni di Android.
 - Disinstallando l'app, o con "Cancella dati" nelle impostazioni di Android, tutti i dati vengono eliminati dal telefono.
 - Se in futuro l'app avrà funzioni online o piani in abbonamento, questa informativa verrà aggiornata prima che cambi qualcosa.
+- **La demo nel browser** tiene i dati solo nella memoria della pagina: non li invia a nessuno e si azzerano quando la ricarichi. Pagina e demo non usano cookie né servizi esterni; GitHub, che ospita il sito, registra gli accessi come per ogni sito ([informativa di GitHub](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement)).
 
 La stessa informativa è nell'app, in **Altro → Privacy**. Scaricando l'app da questa pagina valgono anche le [condizioni](https://docs.github.com/it/site-policy/github-terms/github-terms-of-service) e l'[informativa privacy](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement) di GitHub.
 
@@ -50,3 +53,7 @@ Total Archery è un progetto personale di Dario Giovannetti.
 Per domande, richieste o segnalazioni: **totalarchery10@gmail.com**, oppure apri una [issue](https://github.com/dariothearcher/total-archery-app/issues).
 
 Novità e aggiornamenti su Instagram.
+
+## Licenza
+
+Total Archery è un software proprietario: **tutti i diritti riservati**. Puoi scaricare e usare l'app e la demo gratuitamente per uso personale; non è consentito copiarle, modificarle, decompilarle o ridistribuirle. Dettagli in [LICENSE](LICENSE).
