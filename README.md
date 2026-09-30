@@ -4,11 +4,11 @@
 
 <p align="center">L'app per chi tira con l'arco: segna, guarda come tiri, migliora.</p>
 
-<p align="center"><a href="https://github.com/dariothearcher/total-archery-app/releases/latest"><b>⬇️ Scarica l'ultima versione (APK per Android)</b></a> · <a href="https://dariothearcher.github.io/total-archery-app/demo/"><b>▶️ Prova la demo nel browser</b></a></p>
+<p align="center"><a href="https://github.com/dariothearcher/total-archery-app/releases/latest"><b>⬇️ Scarica l'ultima versione (APK per Android)</b></a> · <a href="https://dariothearcher.github.io/total-archery-app/app/"><b>🌐 Usala nel browser (iPhone, computer)</b></a> · <a href="https://dariothearcher.github.io/total-archery-app/demo/"><b>▶️ Prova la demo</b></a></p>
 
 <p align="center"><a href="https://dariothearcher.github.io/total-archery-app/">dariothearcher.github.io/total-archery-app</a></p>
 
-> **Per ora Total Archery è disponibile solo per Android.** La versione per iPhone (iOS) arriverà presto.
+> **Da installare, per ora Total Archery è solo per Android.** Su iPhone e computer c'è la **web app**, nel browser; le versioni per Google Play e App Store arriveranno presto.
 
 ## Cosa fa
 
@@ -31,6 +31,18 @@ In italiano, inglese, spagnolo, francese e tedesco.
 Per aggiornare basta installare il nuovo APK sopra il vecchio: i dati restano.
 Se avevi una versione di prova, va disinstallata prima.
 
+## La web app (iPhone, computer)
+
+L'app vera, nel browser: [dariothearcher.github.io/total-archery-app/app](https://dariothearcher.github.io/total-archery-app/app/).
+
+1. Aprila nel browser. Parte vuota: i tuoi dati restano nel browser, su quel dispositivo.
+2. **Su iPhone**, in Safari: tocca **Condividi** → **Aggiungi alla schermata Home**. **Su Android e computer**: in Altro, **Installa l'app** (o "Installa" nel menu del browser).
+3. Dopo la prima apertura funziona anche **senza internet**; quando c'è una nuova versione, l'app lo dice in alto con **Aggiorna**.
+
+Nel browser i dati si perdono se cancelli i dati del sito: fai i **backup** (Altro → Backup → Scarica backup). È lo stesso file dell'app Android, quindi con un backup passi i dati dal telefono al browser e viceversa.
+
+La **demo** invece parte con i dati di un arciere di esempio e li azzera quando ricarichi la pagina.
+
 ## Privacy
 
 **I tuoi dati restano sul telefono.** Total Archery non raccoglie, non invia e non vende nessun dato.
@@ -41,6 +53,7 @@ Se avevi una versione di prova, va disinstallata prima.
 - Se sul telefono è attivo il backup di Google, Android può copiare i dati dell'app nel tuo account Google: è una funzione del telefono, che gestisci nelle impostazioni di Android.
 - Disinstallando l'app, o con "Cancella dati" nelle impostazioni di Android, tutti i dati vengono eliminati dal telefono.
 - Se in futuro l'app avrà funzioni online o piani in abbonamento, questa informativa verrà aggiornata prima che cambi qualcosa.
+- **La web app** tiene i dati nella memoria del browser, su quel dispositivo: non li invia a nessuno, non usa cookie né contatori. Si scarica da GitHub Pages; dopo funziona anche senza internet. Cancellando i dati del sito dal browser, i dati vengono eliminati: per questo c'è il backup.
 - **La demo nel browser** tiene i dati solo nella memoria della pagina: non li invia a nessuno e si azzerano quando la ricarichi. La demo non usa cookie né servizi esterni.
 - **Il sito** (la pagina di presentazione) conta le visite e i clic sui tasti principali in forma anonima con [GoatCounter](https://www.goatcounter.com/help/privacy): niente cookie, niente dati personali, nessun profilo, server in UE. Ricorda solo la lingua scelta, nel tuo browser. GitHub, che ospita il sito, registra gli accessi come per ogni sito ([informativa di GitHub](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement)).
 

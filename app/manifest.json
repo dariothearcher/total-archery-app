@@ -1,12 +1,16 @@
 {
+    "id": "./",
     "name": "Total Archery",
     "short_name": "Total Archery",
-    "start_url": ".",
+    "description": "L'app per chi tira con l'arco: segna le frecce, guarda come tiri, migliora. I dati restano sul tuo dispositivo.",
+    "lang": "it",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
     "background_color": "#1D5A3A",
     "theme_color": "#1D5A3A",
-    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
+    "categories": ["sports", "health", "lifestyle"],
     "prefer_related_applications": false,
     "icons": [
         {

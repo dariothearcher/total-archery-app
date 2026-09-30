@@ -58,6 +58,8 @@ h1, h2, h3 { font-family: "Barlow Condensed", sans-serif; font-weight: 700; lett
 .btn-line { border: 2px solid var(--on-forest); color: var(--on-forest); }
 .btn-line:hover { background: rgba(244,242,236,.08); }
 .meta { margin: 12px 0 0; font-size: 14px; color: var(--on-forest-muted); }
+.web-link { margin: 14px 0 0; font-size: 16px; color: var(--on-forest-muted); }
+.web-link a { color: var(--gold); font-weight: 600; text-underline-offset: 3px; }
 .soon { margin-top: 18px; font-size: 15px; color: var(--on-forest-muted); }
 .soon b { color: var(--on-forest); font-weight: 600; }
 
@@ -97,7 +99,8 @@ section { padding: 80px 0; }
 
 /* Get it */
 .get { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.get-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.get-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+@media (max-width: 1100px) { .get-grid { grid-template-columns: 1fr 1fr; } }
 .card { border-radius: 20px; padding: 28px; border: 1px solid var(--line); background: var(--cream); }
 .card h3 { font-size: 30px; margin-bottom: 10px; }
 .card ol { margin: 0 0 22px; padding-left: 22px; }
@@ -151,10 +154,11 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-
         <h1><span lang="it">Segna.<br>Guarda come tiri.<br><em>Migliora.</em></span><span lang="en">Score.<br>See how you shoot.<br><em>Get better.</em></span></h1>
         <p class="lead"><span lang="it">Punteggi, statistiche, campagna e 3D, attrezzatura: tutto quello che serve a un arciere, sul telefono.</span><span lang="en">Scores, statistics, field and 3D, equipment: everything an archer needs, on the phone.</span></p>
         <div class="actions">
-          <a class="btn btn-gold" href="https://github.com/dariothearcher/total-archery-app/releases/latest/download/total-archery.apk" data-goatcounter-click="scarica-apk" data-goatcounter-title="Scarica APK"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span lang="it">Scarica per Android</span><span lang="en">Download for Android</span></a>
+          <a class="btn btn-gold" href="#scarica" data-goatcounter-click="installa" data-goatcounter-title="Installa (in alto)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span lang="it">Installa</span><span lang="en">Install</span></a>
           <a class="btn btn-line" href="demo/" data-goatcounter-click="apri-demo" data-goatcounter-title="Apri la demo (in alto)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg><span lang="it">Prova la demo</span><span lang="en">Try the demo</span></a>
         </div>
-        <p class="meta">APK · 77 MB · <span lang="it">versione 0.48</span><span lang="en">version 0.48</span> · Android 7+</p>
+        <p class="meta"><span lang="it">Versione 0.52 · Android, iPhone e computer · gratis</span><span lang="en">Version 0.52 · Android, iPhone and computers · free</span></p>
+        <p class="web-link"><span lang="it">iPhone o computer?</span><span lang="en">iPhone or computer?</span> <a href="app/" data-goatcounter-click="apri-web-app" data-goatcounter-title="Apri la web app (in alto)"><span lang="it">Usa l’app nel browser</span><span lang="en">Use the app in your browser</span> →</a></p>
         <p class="soon"><span lang="it"><b>Presto</b> su Google Play e App Store.</span><span lang="en"><b>Coming soon</b> to Google Play and the App Store.</span></p>
         <img class="mobile-shot" src="shots/riepilogo.png" alt="" width="360" height="760">
       </div>
@@ -200,17 +204,26 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-
     <div class="wrap">
       <div class="section-head">
         <h2><span lang="it">Come averla</span><span lang="en">How to get it</span></h2>
-        <p><span lang="it">Oggi per Android, gratis. Gli store ufficiali arrivano presto.</span><span lang="en">Android today, for free. The official stores are coming soon.</span></p>
+        <p><span lang="it">Oggi per Android e nel browser, gratis. Gli store ufficiali arrivano presto.</span><span lang="en">Android and the browser today, for free. The official stores are coming soon.</span></p>
       </div>
       <div class="get-grid">
         <div class="card">
           <h3>Android</h3>
           <ol>
-            <li><span lang="it">Apri la pagina della versione più recente dal telefono.</span><span lang="en">Open the latest release page on your phone.</span></li>
-            <li><span lang="it">Tocca il file <code>.apk</code> per scaricarlo e aprilo.</span><span lang="en">Tap the <code>.apk</code> file to download it, then open it.</span></li>
+            <li><span lang="it">Dal telefono Android tocca il tasto qui sotto: scarica l’APK.</span><span lang="en">On your Android phone tap the button below: it downloads the APK.</span></li>
+            <li><span lang="it">Apri il file scaricato.</span><span lang="en">Open the downloaded file.</span></li>
             <li><span lang="it">La prima volta consenti l’installazione da questa origine, poi <b>Installa</b>.</span><span lang="en">The first time, allow installing from this source, then tap <b>Install</b>.</span></li>
           </ol>
-          <a class="btn btn-gold" href="https://github.com/dariothearcher/total-archery-app/releases/latest" data-goatcounter-click="pagina-release" data-goatcounter-title="Pagina delle release"><span lang="it">Scarica l’ultima versione</span><span lang="en">Download the latest version</span></a>
+          <a class="btn btn-gold" href="https://github.com/dariothearcher/total-archery-app/releases/latest/download/total-archery.apk" data-goatcounter-click="scarica-apk" data-goatcounter-title="Scarica APK"><span lang="it">Scarica l’APK</span><span lang="en">Download the APK</span> · 77 MB</a>
+        </div>
+        <div class="card">
+          <h3><span lang="it">Nel browser (iPhone, computer)</span><span lang="en">In the browser (iPhone, computer)</span></h3>
+          <ol>
+            <li><span lang="it">Apri la web app: è l’app vera, parte vuota e i dati restano nel browser.</span><span lang="en">Open the web app: it is the real app, it starts empty and your data stays in the browser.</span></li>
+            <li><span lang="it">Su iPhone, in Safari: <b>Condividi</b> → <b>Aggiungi alla schermata Home</b>. Su Android e computer: <b>Installa</b>.</span><span lang="en">On iPhone, in Safari: <b>Share</b> → <b>Add to Home Screen</b>. On Android and computers: <b>Install</b>.</span></li>
+            <li><span lang="it">Funziona anche senza internet. Fai i backup: con lo stesso file passi i dati dal telefono al browser.</span><span lang="en">It works offline too. Make backups: the same file moves your data between phone and browser.</span></li>
+          </ol>
+          <a class="btn btn-gold" href="app/" data-goatcounter-click="apri-web-app-sotto" data-goatcounter-title="Apri la web app (in fondo)"><span lang="it">Apri la web app</span><span lang="en">Open the web app</span></a>
         </div>
         <div class="card">
           <h3><span lang="it">Prossimamente</span><span lang="en">Coming soon</span></h3>
@@ -227,12 +240,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-
   <section class="privacy" id="privacy">
     <div class="wrap">
       <div class="section-head">
-        <h2><span lang="it">I tuoi dati restano sul telefono</span><span lang="en">Your data stays on your phone</span></h2>
+        <h2><span lang="it">I tuoi dati restano sul tuo dispositivo</span><span lang="en">Your data stays on your device</span></h2>
         <p><span lang="it">Total Archery non raccoglie, non invia e non vende nessun dato.</span><span lang="en">Total Archery does not collect, send or sell any data.</span></p>
       </div>
       <div class="privacy-grid">
-        <div><h3><span lang="it">Niente account</span><span lang="en">No account</span></h3><p><span lang="it">Non c’è un server: nessuno, nemmeno chi ha fatto l’app, vede le tue sessioni.</span><span lang="en">There is no server: nobody, not even the maker, sees your sessions.</span></p></div>
-        <div><h3><span lang="it">Niente internet</span><span lang="en">No internet</span></h3><p><span lang="it">L’app non ha il permesso di collegarsi: niente pubblicità né statistiche d’uso.</span><span lang="en">The app has no permission to go online: no ads, no usage tracking.</span></p></div>
+        <div><h3><span lang="it">Niente account</span><span lang="en">No account</span></h3><p><span lang="it">Non c’è un server: i dati restano sul telefono o nel tuo browser, e nessuno, nemmeno chi ha fatto l’app, vede le tue sessioni.</span><span lang="en">There is no server: your data stays on your phone or in your browser, and nobody, not even the maker, sees your sessions.</span></p></div>
+        <div><h3><span lang="it">Niente internet</span><span lang="en">No internet</span></h3><p><span lang="it">L’app non ha il permesso di collegarsi, e la web app dopo la prima apertura funziona offline: niente pubblicità né statistiche d’uso.</span><span lang="en">The app has no permission to go online, and the web app works offline once opened: no ads, no usage tracking.</span></p></div>
         <div><h3><span lang="it">Decidi tu</span><span lang="en">Your call</span></h3><p><span lang="it">I dati escono solo se fai un backup, esporti un PDF o condividi un’immagine. Questo sito ricorda solo la lingua che scegli, nel tuo browser, e conta le visite in forma anonima con GoatCounter: niente cookie, niente dati personali.</span><span lang="en">Data only leaves when you back up, export a PDF or share an image. This site only remembers your language, in your browser, and counts visits anonymously with GoatCounter: no cookies, no personal data.</span></p></div>
       </div>
     </div>
