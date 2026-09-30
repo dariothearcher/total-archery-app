@@ -41,11 +41,12 @@ Se avevi una versione di prova, va disinstallata prima.
 - Se sul telefono è attivo il backup di Google, Android può copiare i dati dell'app nel tuo account Google: è una funzione del telefono, che gestisci nelle impostazioni di Android.
 - Disinstallando l'app, o con "Cancella dati" nelle impostazioni di Android, tutti i dati vengono eliminati dal telefono.
 - Se in futuro l'app avrà funzioni online o piani in abbonamento, questa informativa verrà aggiornata prima che cambi qualcosa.
-- **La demo nel browser** tiene i dati solo nella memoria della pagina: non li invia a nessuno e si azzerano quando la ricarichi. Pagina e demo non usano cookie né servizi esterni; GitHub, che ospita il sito, registra gli accessi come per ogni sito ([informativa di GitHub](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement)).
+- **La demo nel browser** tiene i dati solo nella memoria della pagina: non li invia a nessuno e si azzerano quando la ricarichi. La demo non usa cookie né servizi esterni.
+- **Il sito** (la pagina di presentazione) conta le visite e i clic sui tasti principali in forma anonima con [GoatCounter](https://www.goatcounter.com/help/privacy): niente cookie, niente dati personali, nessun profilo, server in UE. Ricorda solo la lingua scelta, nel tuo browser. GitHub, che ospita il sito, registra gli accessi come per ogni sito ([informativa di GitHub](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement)).
 
 La stessa informativa è nell'app, in **Altro → Privacy**. Scaricando l'app da questa pagina valgono anche le [condizioni](https://docs.github.com/it/site-policy/github-terms/github-terms-of-service) e l'[informativa privacy](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement) di GitHub.
 
-*Aggiornata il 28 settembre 2026.*
+*Aggiornata il 30 settembre 2026.*
 
 ## Chi pubblica l'app
 
