@@ -113,8 +113,12 @@ window.totalArchery = {
 // the engine and its Roboto come with the app; here the fonts the engine
 // would fetch from Google for characters missing in ours are looked for next
 // to the app instead (they are not there: such characters stay blank).
+// The engine runs on one thread: more would need headers GitHub Pages cannot
+// send (Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy), so the
+// warning about it says nothing new.
 _flutter.loader.load({
   config: {
     fontFallbackBaseUrl: 'fonts/',
+    suppressMultithreadingWarning: true,
   },
 });
