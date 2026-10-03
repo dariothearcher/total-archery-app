@@ -8,7 +8,7 @@
 
 <p align="center"><a href="https://dariothearcher.github.io/total-archery-app/">dariothearcher.github.io/total-archery-app</a></p>
 
-> **Da installare, per ora Total Archery è solo per Android.** Su iPhone e computer c'è la **web app**, nel browser; le versioni per Google Play e App Store arriveranno presto.
+> **Da installare, per ora Total Archery è solo per Android.** Su iPhone e computer c'è la **web app**, nel browser.
 
 ## Cosa fa
 
