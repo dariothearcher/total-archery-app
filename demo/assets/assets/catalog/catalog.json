@@ -1,0 +1,8081 @@
+{
+ "version": 2,
+ "updated": "2026-10-10",
+ "compound": {
+  "Bowtech": [
+   {
+    "model": "Anthem"
+   },
+   {
+    "model": "Fanatic",
+    "axleToAxle": [
+     36.5
+    ],
+    "braceHeight": [
+     7.75
+    ],
+    "cam": "Overdrive Binary",
+    "letOffRange": {
+     "max": 75
+    },
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 31
+    },
+    "year": 2015
+   },
+   {
+    "model": "Fanatic 2.0",
+    "axleToAxle": [
+     37.5
+    ],
+    "braceHeight": [
+     7.375,
+     7.125
+    ],
+    "cam": "Overdrive Binary (PowerShift)",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 32.5
+    }
+   },
+   {
+    "model": "Fanatic 3.0",
+    "axleToAxle": [
+     37.75
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Overdrive Binary",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 29
+    },
+    "year": 2017
+   },
+   {
+    "model": "Reckoning",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Overdrive Binary",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 31
+    },
+    "year": 2019
+   },
+   {
+    "model": "Reckoning 38",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     7.125
+    ],
+    "cam": "DeadLock",
+    "letOff": [
+     70,
+     75,
+     80
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 27,
+     "max": 32
+    },
+    "year": 2020
+   },
+   {
+    "model": "Reckoning Gen2 36",
+    "axleToAxle": [
+     36
+    ],
+    "braceHeight": [
+     7.062,
+     6.75
+    ],
+    "cam": "DeadLock (FlipDisc Pro)",
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 25.5,
+     "max": 32.5
+    },
+    "year": 2023
+   },
+   {
+    "model": "Reckoning Gen2 39",
+    "axleToAxle": [
+     39
+    ],
+    "braceHeight": [
+     7.188,
+     6.75
+    ],
+    "cam": "DeadLock (FlipDisc Pro)",
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26.5,
+     "max": 33.5
+    },
+    "year": 2023
+   },
+   {
+    "model": "Specialist II",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     7.125
+    ],
+    "cam": "Binary",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 32.5
+    },
+    "year": 2020
+   }
+  ],
+  "Elite": [
+   {
+    "model": "Exalt",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     6.812
+    ],
+    "cam": "SPX",
+    "letOffRange": {
+     "max": 90
+    },
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70,
+     75
+    ],
+    "drawLength": {
+     "min": 24.5,
+     "max": 30
+    }
+   },
+   {
+    "model": "Exalt LD",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     7.125
+    ],
+    "cam": "SP + V3 Mod",
+    "letOffRange": {
+     "max": 90
+    },
+    "drawWeight": [
+     50,
+     60,
+     65,
+     70,
+     75
+    ],
+    "drawLength": {
+     "min": 26.5,
+     "max": 32
+    }
+   },
+   {
+    "model": "Pure",
+    "axleToAxle": [
+     36
+    ],
+    "year": 2011
+   },
+   {
+    "model": "Rezult",
+    "axleToAxle": [
+     37.75
+    ],
+    "cam": "Asym Tri-Track",
+    "letOffRange": {
+     "min": 70,
+     "max": 90
+    },
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 31
+    },
+    "year": 2020
+   },
+   {
+    "model": "Rezult 36",
+    "axleToAxle": [
+     36
+    ],
+    "braceHeight": [
+     6.812
+    ],
+    "cam": "Asym Tri-Track",
+    "letOffRange": {
+     "min": 70,
+     "max": 85
+    },
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 30
+    },
+    "year": 2021
+   },
+   {
+    "model": "Verdict",
+    "axleToAxle": [
+     37.75
+    ],
+    "braceHeight": [
+     7.125
+    ],
+    "cam": "SPX (V2 Micro Mod)",
+    "letOffRange": {
+     "max": 90
+    },
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 25.5,
+     "max": 31
+    },
+    "year": 2022
+   },
+   {
+    "model": "Victory 37",
+    "axleToAxle": [
+     37
+    ],
+    "braceHeight": [
+     6.75
+    ],
+    "cam": "V37",
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 31
+    }
+   },
+   {
+    "model": "Victory 39",
+    "axleToAxle": [
+     39
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Victory (V / VSB)",
+    "letOffRange": {
+     "min": 65,
+     "max": 85
+    },
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 32
+    },
+    "year": 2015
+   },
+   {
+    "model": "Victory X",
+    "axleToAxle": [
+     37.125
+    ],
+    "braceHeight": [
+     6.75
+    ],
+    "cam": "V37 / V37 SB",
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 31
+    },
+    "year": 2018
+   },
+   {
+    "model": "Victra",
+    "axleToAxle": [
+     40,
+     37.5
+    ],
+    "braceHeight": [
+     7.5,
+     7
+    ],
+    "cam": "SPX2",
+    "letOffRange": {
+     "max": 90
+    },
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 25.5,
+     "max": 32
+    },
+    "year": 2025
+   }
+  ],
+  "Hoyt": [
+   {
+    "model": "38 Pro",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     9.25
+    ],
+    "cam": "Cam & 1/2 Plus",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawWeightRange": {
+     "min": 50,
+     "max": 60
+    },
+    "drawLength": {
+     "min": 25,
+     "max": 27.5
+    },
+    "year": 2007
+   },
+   {
+    "model": "38 Ultra",
+    "axleToAxle": [
+     38.5
+    ],
+    "braceHeight": [
+     7.5
+    ],
+    "cam": "Vector Cam & 1/2",
+    "drawWeightRange": {
+     "min": 50,
+     "max": 60
+    },
+    "drawLength": {
+     "min": 27,
+     "max": 32
+    },
+    "year": 2007
+   },
+   {
+    "model": "Alphaelite",
+    "axleToAxle": [
+     36
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "RKT Cam & 1/2",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 31.5
+    },
+    "year": 2012
+   },
+   {
+    "model": "Altus",
+    "axleToAxle": [
+     38.25,
+     35
+    ],
+    "braceHeight": [
+     7.375,
+     7
+    ],
+    "cam": "HBT",
+    "letOff": [
+     65,
+     70,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 31
+    },
+    "year": 2023
+   },
+   {
+    "model": "Altus FX",
+    "axleToAxle": [
+     35.75
+    ],
+    "braceHeight": [
+     6.75,
+     6.5
+    ],
+    "cam": "SVX / DCX",
+    "letOff": [
+     65,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 22.5,
+     "max": 30
+    },
+    "year": 2022
+   },
+   {
+    "model": "Concept FX",
+    "axleToAxle": [
+     34
+    ],
+    "braceHeight": [
+     6.25
+    ],
+    "cam": "Sector (SCTR)",
+    "letOff": [
+     65,
+     67.5,
+     70,
+     72.5,
+     75,
+     77.5
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 23.5,
+     "max": 29.5
+    },
+    "year": 2025
+   },
+   {
+    "model": "Concept X",
+    "axleToAxle": [
+     40,
+     37
+    ],
+    "braceHeight": [
+     7.25,
+     7
+    ],
+    "cam": "Sector (SCTR)",
+    "letOff": [
+     65,
+     67.5,
+     70,
+     72.5,
+     75,
+     77.5
+    ],
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 32
+    },
+    "year": 2025
+   },
+   {
+    "model": "Concept X 40 LD",
+    "axleToAxle": [
+     40
+    ],
+    "cam": "Sector (SCTR)",
+    "letOff": [
+     65,
+     67.5,
+     70,
+     72.5,
+     75,
+     77.5
+    ],
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 32.25,
+     "max": 34
+    },
+    "year": 2025
+   },
+   {
+    "model": "Concept XTS",
+    "axleToAxle": [
+     40,
+     37,
+     34
+    ],
+    "braceHeight": [
+     7.25,
+     7,
+     6.25
+    ],
+    "cam": "SCTR 2.0",
+    "letOff": [
+     65,
+     67.5,
+     70,
+     72.5,
+     75,
+     77.5
+    ],
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 23.5,
+     "max": 32
+    },
+    "year": 2026
+   },
+   {
+    "model": "Concept XTS 40 LD",
+    "axleToAxle": [
+     40
+    ],
+    "braceHeight": [
+     7.68
+    ],
+    "cam": "SCTR 2.0",
+    "letOff": [
+     65,
+     67.5,
+     70,
+     72.5,
+     75,
+     77.5
+    ],
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 32.25,
+     "max": 34
+    },
+    "year": 2026
+   },
+   {
+    "model": "Contender",
+    "axleToAxle": [
+     41.75,
+     38.125
+    ],
+    "braceHeight": [
+     7.125,
+     6.625
+    ],
+    "cam": "GTX / Spiral X / Cam & 1/2 Plus",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 31.5
+    },
+    "year": 2010
+   },
+   {
+    "model": "FX Comp",
+    "axleToAxle": [
+     33
+    ],
+    "braceHeight": [
+     6.5,
+     6
+    ],
+    "cam": "DCX Cam & 1/2",
+    "letOff": [
+     65,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     55,
+     60
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 28.5
+    },
+    "year": 2020
+   },
+   {
+    "model": "Invicta",
+    "axleToAxle": [
+     40,
+     37
+    ],
+    "braceHeight": [
+     7.625,
+     7.375,
+     7
+    ],
+    "cam": "DCX / SVX",
+    "letOff": [
+     65,
+     75
+    ],
+    "drawWeightRange": {
+     "min": 30,
+     "max": 70
+    },
+    "drawLength": {
+     "min": 23.5,
+     "max": 32
+    },
+    "year": 2020
+   },
+   {
+    "model": "Montega",
+    "axleToAxle": [
+     45.5
+    ],
+    "braceHeight": [
+     9.25
+    ],
+    "cam": "Wheel & 1/2 / Cam & 1/2",
+    "letOff": [
+     65
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 26.5,
+     "max": 34
+    },
+    "year": 2007
+   },
+   {
+    "model": "Podium X Elite",
+    "axleToAxle": [
+     40,
+     37.625
+    ],
+    "braceHeight": [
+     8,
+     7.625,
+     7.5,
+     7.125
+    ],
+    "cam": "Spiral Pro / GTX",
+    "letOff": [
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 32.5
+    },
+    "year": 2015
+   },
+   {
+    "model": "Prevail",
+    "axleToAxle": [
+     40.25,
+     37.25,
+     35
+    ],
+    "braceHeight": [
+     7.75,
+     7.625,
+     7.125,
+     6.75,
+     6.5
+    ],
+    "cam": "X3 / SVX",
+    "letOff": [
+     65,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 31.5
+    },
+    "year": 2017
+   },
+   {
+    "model": "Pro Comp Elite",
+    "axleToAxle": [
+     37.875,
+     37.625
+    ],
+    "braceHeight": [
+     8.125,
+     7.625
+    ],
+    "cam": "GTX / Spiral X",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24.5,
+     "max": 32.5
+    },
+    "year": 2013
+   },
+   {
+    "model": "Pro Comp Elite FX",
+    "axleToAxle": [
+     35.25
+    ],
+    "braceHeight": [
+     7,
+     6.5
+    ],
+    "cam": "Spiral Pro / GTX",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 30.5
+    },
+    "year": 2014
+   },
+   {
+    "model": "Pro Comp Elite FX SD",
+    "axleToAxle": [
+     33.75
+    ],
+    "cam": "Spiral Pro / GTX",
+    "year": 2014
+   },
+   {
+    "model": "Pro Comp Elite XL",
+    "axleToAxle": [
+     40.625,
+     40
+    ],
+    "braceHeight": [
+     8,
+     7.625
+    ],
+    "cam": "GTX / Spiral X",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 32.5
+    },
+    "year": 2013
+   },
+   {
+    "model": "Pro Edge Elite",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Z5 Cam & 1/2",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 31.5
+    },
+    "year": 2014
+   },
+   {
+    "model": "ProElite",
+    "axleToAxle": [
+     37.25
+    ],
+    "braceHeight": [
+     8.25,
+     7.75
+    ],
+    "cam": "Cam & 1/2 Plus / Spiral X",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawWeight": [
+     50,
+     60,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 32.5
+    },
+    "year": 2007
+   },
+   {
+    "model": "Stratos",
+    "axleToAxle": [
+     40.625,
+     36.5
+    ],
+    "braceHeight": [
+     7.375
+    ],
+    "cam": "HBT / SVX",
+    "letOff": [
+     65,
+     70,
+     75
+    ],
+    "drawWeightRange": {
+     "min": 30,
+     "max": 70
+    },
+    "drawLength": {
+     "min": 23.5,
+     "max": 33
+    }
+   },
+   {
+    "model": "UltraElite",
+    "axleToAxle": [
+     37.5,
+     37.25
+    ],
+    "braceHeight": [
+     7,
+     6.75
+    ],
+    "cam": "Cam & 1/2 Plus / Spiral X",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawWeight": [
+     50,
+     60,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 32.5
+    },
+    "year": 2007
+   },
+   {
+    "model": "Vantage Elite",
+    "axleToAxle": [
+     41
+    ],
+    "braceHeight": [
+     8,
+     7.75
+    ],
+    "cam": "Spiral X / Cam & 1/2 Plus",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawWeight": [
+     50,
+     60,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 25.5,
+     "max": 34
+    },
+    "year": 2009
+   },
+   {
+    "model": "Vantage Elite Plus",
+    "axleToAxle": [
+     40.5,
+     40.25
+    ],
+    "braceHeight": [
+     8.125,
+     7.75
+    ],
+    "cam": "GTX / Spiral X / Cam & 1/2 Plus",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 32.5
+    },
+    "year": 2011
+   },
+   {
+    "model": "Vantage LTD",
+    "axleToAxle": [
+     45
+    ],
+    "braceHeight": [
+     9
+    ],
+    "cam": "AccuWheel",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 34
+    },
+    "year": 2010
+   },
+   {
+    "model": "Vantage Pro",
+    "axleToAxle": [
+     41
+    ],
+    "braceHeight": [
+     8,
+     7.75
+    ],
+    "cam": "Cam & 1/2 Plus / Spiral X / GTX",
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 25.5,
+     "max": 34
+    },
+    "year": 2009
+   },
+   {
+    "model": "Vantage X7",
+    "axleToAxle": [
+     41
+    ],
+    "braceHeight": [
+     7.25
+    ],
+    "cam": "Cam & 1/2 Plus",
+    "year": 2008
+   },
+   {
+    "model": "Vantage X8",
+    "axleToAxle": [
+     41
+    ],
+    "braceHeight": [
+     8
+    ],
+    "cam": "Cam & 1/2 Plus",
+    "year": 2008
+   }
+  ],
+  "Mathews": [
+   {
+    "model": "Conquest 2",
+    "axleToAxle": [
+     41
+    ],
+    "year": 2001
+   },
+   {
+    "model": "Conquest 3",
+    "axleToAxle": [
+     41
+    ],
+    "cam": "MaxCam / Mini MaxCam / Super Soft",
+    "letOff": [
+     60,
+     65,
+     80
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 32
+    },
+    "year": 2003
+   },
+   {
+    "model": "Conquest 4",
+    "axleToAxle": [
+     41,
+     40.625
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "MaxCam / Mini MaxCam / Super Soft",
+    "letOff": [
+     60,
+     65,
+     80
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 32
+    }
+   },
+   {
+    "model": "Conquest Apex 7",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "StraightLine",
+    "letOff": [
+     65
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 30.5
+    },
+    "year": 2006
+   },
+   {
+    "model": "Conquest Apex 8",
+    "axleToAxle": [
+     42.25
+    ],
+    "braceHeight": [
+     8
+    ],
+    "cam": "Apex Cam",
+    "letOff": [
+     65
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 32
+    },
+    "year": 2011
+   },
+   {
+    "model": "Conquest Prestige"
+   },
+   {
+    "model": "Conquest Triumph",
+    "axleToAxle": [
+     39
+    ],
+    "cam": "Triumph",
+    "year": 2010
+   },
+   {
+    "model": "Halon X",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Crosscentric",
+    "letOff": [
+     75
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 30.5
+    },
+    "year": 2016
+   },
+   {
+    "model": "Halon X Comp",
+    "axleToAxle": [
+     37
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Mini Crosscentric",
+    "letOff": [
+     75
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 32
+    },
+    "year": 2017
+   },
+   {
+    "model": "NO CAM TRG 7",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "No Cam",
+    "letOff": [
+     65,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 31
+    },
+    "year": 2015
+   },
+   {
+    "model": "NO CAM TRG 8",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     8
+    ],
+    "cam": "No Cam",
+    "letOff": [
+     65,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 27,
+     "max": 32
+    },
+    "year": 2015
+   },
+   {
+    "model": "Title",
+    "axleToAxle": [
+     40,
+     38,
+     36,
+     34
+    ],
+    "braceHeight": [
+     7.5,
+     7,
+     6.5
+    ],
+    "cam": "Switchweight Target (SWT)",
+    "letOff": [
+     70,
+     75,
+     80
+    ],
+    "drawWeight": [
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 24.5,
+     "max": 32.5
+    },
+    "year": 2024
+   },
+   {
+    "model": "TRX 7",
+    "axleToAxle": [
+     40
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Mini Crosscentric",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 30
+    },
+    "year": 2017
+   },
+   {
+    "model": "TRX 8",
+    "axleToAxle": [
+     40
+    ],
+    "braceHeight": [
+     8
+    ],
+    "cam": "Mini Crosscentric",
+    "letOff": [
+     70
+    ],
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 31
+    },
+    "year": 2017
+   },
+   {
+    "model": "TRX 34",
+    "axleToAxle": [
+     34
+    ],
+    "braceHeight": [
+     6.5
+    ],
+    "cam": "C3X",
+    "letOff": [
+     70,
+     75,
+     80
+    ],
+    "drawWeight": [
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 23.5,
+     "max": 30
+    },
+    "year": 2021
+   },
+   {
+    "model": "TRX 36",
+    "axleToAxle": [
+     36
+    ],
+    "braceHeight": [
+     6.5
+    ],
+    "cam": "C3X",
+    "letOff": [
+     70,
+     75,
+     80
+    ],
+    "drawWeight": [
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 30.5
+    },
+    "year": 2020
+   },
+   {
+    "model": "TRX 38",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     7.5
+    ],
+    "cam": "Mini Crosscentric",
+    "letOff": [
+     70,
+     75,
+     80
+    ],
+    "drawWeight": [
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 30
+    },
+    "year": 2018
+   },
+   {
+    "model": "TRX 38 G2",
+    "axleToAxle": [
+     38
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "C3X",
+    "letOff": [
+     70,
+     75,
+     80
+    ],
+    "drawWeight": [
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 31.5
+    },
+    "year": 2021
+   },
+   {
+    "model": "TRX 40",
+    "axleToAxle": [
+     40
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "C3X",
+    "letOff": [
+     70,
+     75,
+     80
+    ],
+    "drawWeight": [
+     50,
+     55,
+     60,
+     65,
+     70
+    ],
+    "drawLength": {
+     "min": 25.5,
+     "max": 32
+    },
+    "year": 2020
+   }
+  ],
+  "Mybo": [
+   {
+    "model": "Edge",
+    "axleToAxle": [
+     39,
+     35
+    ],
+    "braceHeight": [
+     7.5,
+     7
+    ],
+    "cam": "Edge",
+    "letOffRange": {
+     "min": 65,
+     "max": 80
+    },
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 32
+    },
+    "year": 2017
+   },
+   {
+    "model": "Origin",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     7.75,
+     7.25
+    ],
+    "cam": "Cam 1 / Cam 2",
+    "letOffRange": {
+     "min": 65,
+     "max": 80
+    },
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 31
+    },
+    "year": 2014
+   },
+   {
+    "model": "Revolution",
+    "axleToAxle": [
+     40,
+     37,
+     34.25
+    ],
+    "braceHeight": [
+     7.5,
+     7,
+     6.5
+    ],
+    "cam": "Revolution",
+    "letOffRange": {
+     "min": 55,
+     "max": 80
+    },
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 26,
+     "max": 32.5
+    },
+    "year": 2021
+   }
+  ],
+  "Prime": [
+   {
+    "model": "Black 5",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     6
+    ],
+    "cam": "Roto Cam",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 25.5,
+     "max": 31
+    },
+    "year": 2020
+   },
+   {
+    "model": "Black 9",
+    "axleToAxle": [
+     39
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Roto Cam",
+    "letOff": [
+     80
+    ],
+    "drawLength": {
+     "min": 27.5,
+     "max": 33
+    },
+    "year": 2020
+   },
+   {
+    "model": "Logic CT3",
+    "axleToAxle": [
+     33
+    ],
+    "braceHeight": [
+     6.25
+    ],
+    "cam": "TRM",
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 24.5,
+     "max": 30
+    },
+    "year": 2019
+   },
+   {
+    "model": "Logic CT5",
+    "axleToAxle": [
+     35
+    ],
+    "braceHeight": [
+     6
+    ],
+    "cam": "TRM",
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 24.5,
+     "max": 30
+    },
+    "year": 2019
+   },
+   {
+    "model": "Logic CT9",
+    "axleToAxle": [
+     39
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "TRM",
+    "letOff": [
+     75,
+     85
+    ],
+    "drawLength": {
+     "min": 26.5,
+     "max": 32
+    },
+    "year": 2019
+   },
+   {
+    "model": "Nexus 6",
+    "axleToAxle": [
+     36
+    ],
+    "braceHeight": [
+     6.5
+    ],
+    "cam": "R2 Roto Cam",
+    "letOff": [
+     80
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     65,
+     70,
+     80
+    ],
+    "drawLength": {
+     "min": 24.5,
+     "max": 31.5
+    },
+    "year": 2021
+   },
+   {
+    "model": "One",
+    "axleToAxle": [
+     39.25
+    ],
+    "cam": "Parallel Cam System",
+    "drawWeight": [
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 27.5,
+     "max": 31.5
+    },
+    "year": 2012
+   },
+   {
+    "model": "One MX",
+    "axleToAxle": [
+     39
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Parallel Cam System",
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24.5,
+     "max": 31
+    }
+   },
+   {
+    "model": "One STX",
+    "axleToAxle": [
+     39
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Parallel Cam System"
+   },
+   {
+    "model": "One STX 36",
+    "axleToAxle": [
+     36
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Parallel Cam System",
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 23.5,
+     "max": 30
+    },
+    "year": 2015
+   },
+   {
+    "model": "One STX v2",
+    "axleToAxle": [
+     39,
+     36
+    ],
+    "braceHeight": [
+     6.75
+    ],
+    "cam": "Parallel Cam System",
+    "letOff": [
+     65
+    ],
+    "year": 2016
+   }
+  ],
+  "PSE": [
+   {
+    "model": "Citation",
+    "axleToAxle": [
+     40,
+     36,
+     34
+    ],
+    "braceHeight": [
+     7.75,
+     7.25,
+     7,
+     6.75
+    ],
+    "cam": "EM / SE (Evolve)",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawLength": {
+     "min": 24,
+     "max": 33.5
+    },
+    "year": 2021
+   },
+   {
+    "model": "Dominator",
+    "axleToAxle": [
+     40,
+     38,
+     35
+    ],
+    "cam": "SE / S2 / M2",
+    "letOff": [
+     65,
+     70,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 25,
+     "max": 33
+    }
+   },
+   {
+    "model": "Dominator Max MD",
+    "axleToAxle": [
+     40.25
+    ],
+    "cam": "Mini EVO"
+   },
+   {
+    "model": "Dominator Pro",
+    "axleToAxle": [
+     40
+    ],
+    "cam": "Mini EVO Hybrid",
+    "letOff": [
+     75
+    ],
+    "drawWeight": [
+     50
+    ],
+    "drawLength": {
+     "min": 27,
+     "max": 31.5
+    },
+    "year": 2012
+   },
+   {
+    "model": "Dominator X",
+    "axleToAxle": [
+     40,
+     38,
+     35
+    ],
+    "braceHeight": [
+     7.625,
+     7.25,
+     7.125,
+     7,
+     6.875,
+     6.75,
+     6.625
+    ],
+    "cam": "SE2 / EM2 / M2",
+    "letOff": [
+     65,
+     70,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 22,
+     "max": 33
+    }
+   },
+   {
+    "model": "Lazer",
+    "axleToAxle": [
+     37
+    ],
+    "cam": "NF",
+    "letOff": [
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 30.5
+    }
+   },
+   {
+    "model": "Lazer X",
+    "axleToAxle": [
+     37
+    ],
+    "braceHeight": [
+     7.375
+    ],
+    "cam": "NF",
+    "letOff": [
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 23.5,
+     "max": 30
+    },
+    "year": 2026
+   },
+   {
+    "model": "Perform X",
+    "axleToAxle": [
+     40
+    ],
+    "braceHeight": [
+     7
+    ],
+    "cam": "Evolve / SE",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawWeight": [
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 26.5,
+     "max": 32
+    },
+    "year": 2018
+   },
+   {
+    "model": "Perform X 3D"
+   },
+   {
+    "model": "Perform X SD"
+   },
+   {
+    "model": "Perform X SD SE"
+   },
+   {
+    "model": "Shootdown",
+    "axleToAxle": [
+     37,
+     36
+    ],
+    "cam": "Mini Evolve (37) / SE2 (36)"
+   },
+   {
+    "model": "Shootdown Pro",
+    "axleToAxle": [
+     36
+    ],
+    "cam": "E2 / S2 / SE2",
+    "letOffRange": {
+     "min": 65,
+     "max": 85
+    },
+    "drawLength": {
+     "min": 25,
+     "max": 31
+    }
+   },
+   {
+    "model": "Supra",
+    "axleToAxle": [
+     38,
+     37
+    ],
+    "cam": "Mini EVO (ME)"
+   },
+   {
+    "model": "Supra EXT",
+    "axleToAxle": [
+     37
+    ],
+    "year": 2016
+   },
+   {
+    "model": "Supra Focus",
+    "axleToAxle": [
+     37
+    ],
+    "cam": "SE",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    }
+   },
+   {
+    "model": "Supra Focus XL",
+    "axleToAxle": [
+     40
+    ],
+    "cam": "SE / EM",
+    "letOff": [
+     75
+    ],
+    "drawWeight": [
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 30
+    },
+    "year": 2021
+   },
+   {
+    "model": "Supra Max",
+    "axleToAxle": [
+     37.25
+    ],
+    "cam": "Mini EVO"
+   },
+   {
+    "model": "Supra RTX",
+    "axleToAxle": [
+     40,
+     37
+    ],
+    "braceHeight": [
+     8,
+     7.5,
+     7
+    ],
+    "cam": "SE / EM",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 33.5
+    },
+    "year": 2022
+   },
+   {
+    "model": "Supra X",
+    "axleToAxle": [
+     40,
+     37
+    ],
+    "braceHeight": [
+     7.875,
+     7.5,
+     7.375,
+     7
+    ],
+    "cam": "SE2 / EM2 / M2",
+    "letOffRange": {
+     "min": 65,
+     "max": 75
+    },
+    "drawWeight": [
+     40,
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 23,
+     "max": 33.5
+    }
+   },
+   {
+    "model": "Trust",
+    "axleToAxle": [
+     40,
+     37
+    ]
+   },
+   {
+    "model": "Xpression",
+    "axleToAxle": [
+     40
+    ],
+    "year": 2017
+   },
+   {
+    "model": "Xpression 3D",
+    "axleToAxle": [
+     37,
+     36.5
+    ],
+    "cam": "DM Hybrid",
+    "letOff": [
+     65,
+     75
+    ],
+    "drawWeightRange": {
+     "max": 70
+    },
+    "drawLength": {
+     "min": 25,
+     "max": 30.5
+    },
+    "year": 2016
+   }
+  ],
+  "Sanlida": [
+   {
+    "model": "Hero X10",
+    "axleToAxle": [
+     40
+    ],
+    "braceHeight": [
+     7.5
+    ],
+    "cam": "Hero Power Cam",
+    "letOffRange": {
+     "min": 65,
+     "max": 70
+    },
+    "drawWeight": [
+     50,
+     60
+    ],
+    "drawLength": {
+     "min": 29.5,
+     "max": 32
+    }
+   },
+   {
+    "model": "Hero X10 II",
+    "axleToAxle": [
+     40,
+     37
+    ],
+    "braceHeight": [
+     7.7,
+     7.5,
+     7.3
+    ],
+    "letOff": [
+     72,
+     75
+    ],
+    "drawWeight": [
+     40,
+     50,
+     60,
+     70
+    ],
+    "drawLength": {
+     "min": 24,
+     "max": 32
+    }
+   }
+  ]
+ },
+ "riser": {
+  "Bernardini": [
+   {
+    "model": "Nilo"
+   }
+  ],
+  "Border": [
+   {
+    "model": "Tempest"
+   }
+  ],
+  "Cartel": [
+   {
+    "model": "Fantom"
+   },
+   {
+    "model": "Midas Infinity"
+   }
+  ],
+  "Core": [
+   {
+    "model": "Arios EXT"
+   },
+   {
+    "model": "Astral"
+   },
+   {
+    "model": "Astral V2"
+   },
+   {
+    "model": "Gonexo"
+   },
+   {
+    "model": "Jet"
+   },
+   {
+    "model": "Jet V2"
+   },
+   {
+    "model": "Prestige"
+   },
+   {
+    "model": "Tegra"
+   },
+   {
+    "model": "Velora"
+   }
+  ],
+  "Fivics": [
+   {
+    "model": "Argon X"
+   },
+   {
+    "model": "Onix"
+   },
+   {
+    "model": "Onix Pro"
+   },
+   {
+    "model": "Skadi-TX"
+   },
+   {
+    "model": "Titan EX"
+   },
+   {
+    "model": "Titan NX"
+   },
+   {
+    "model": "Titan NXT"
+   },
+   {
+    "model": "Vellator"
+   },
+   {
+    "model": "Vellator 2"
+   },
+   {
+    "model": "Vellator V3"
+   },
+   {
+    "model": "VX"
+   },
+   {
+    "model": "Xenia"
+   }
+  ],
+  "Galaxy": [
+   {
+    "model": "Artemis"
+   },
+   {
+    "model": "Crescent"
+   },
+   {
+    "model": "Explorer"
+   },
+   {
+    "model": "Tourch"
+   }
+  ],
+  "Gillo": [
+   {
+    "model": "G1"
+   },
+   {
+    "model": "G1N"
+   },
+   {
+    "model": "GF"
+   },
+   {
+    "model": "GQ"
+   },
+   {
+    "model": "GT"
+   },
+   {
+    "model": "GT Lux"
+   },
+   {
+    "model": "GT M"
+   },
+   {
+    "model": "GX"
+   },
+   {
+    "model": "GX2"
+   },
+   {
+    "model": "Lux"
+   }
+  ],
+  "Hoyt": [
+   {
+    "model": "Arcos"
+   },
+   {
+    "model": "Excel"
+   },
+   {
+    "model": "Formula SR"
+   },
+   {
+    "model": "Formula Xi"
+   },
+   {
+    "model": "GMX 3"
+   },
+   {
+    "model": "Horizon"
+   },
+   {
+    "model": "Prodigy"
+   },
+   {
+    "model": "Prodigy XT"
+   },
+   {
+    "model": "RCRV Comp"
+   },
+   {
+    "model": "RCRV Podium"
+   },
+   {
+    "model": "Satori"
+   },
+   {
+    "model": "Xakt"
+   },
+   {
+    "model": "Xceed"
+   },
+   {
+    "model": "Xceed 2"
+   }
+  ],
+  "Kaya": [
+   {
+    "model": "K3"
+   },
+   {
+    "model": "K7"
+   }
+  ],
+  "Kinetic": [
+   {
+    "model": "Adeo Carbon"
+   },
+   {
+    "model": "Elezo"
+   },
+   {
+    "model": "Ember V2"
+   },
+   {
+    "model": "Evolium"
+   },
+   {
+    "model": "Halo"
+   },
+   {
+    "model": "Invinso V2"
+   },
+   {
+    "model": "Lancer V2"
+   },
+   {
+    "model": "Meos"
+   },
+   {
+    "model": "Novana V2"
+   },
+   {
+    "model": "Novius V2"
+   },
+   {
+    "model": "Scopus"
+   },
+   {
+    "model": "Sovren"
+   },
+   {
+    "model": "Vygo"
+   },
+   {
+    "model": "Vygo V2"
+   },
+   {
+    "model": "Zivio"
+   }
+  ],
+  "MK Archery": [
+   {
+    "model": "Alpha"
+   },
+   {
+    "model": "Beta"
+   },
+   {
+    "model": "L3"
+   },
+   {
+    "model": "MKX 10"
+   },
+   {
+    "model": "MKZX"
+   },
+   {
+    "model": "S"
+   },
+   {
+    "model": "X-ON"
+   },
+   {
+    "model": "XG"
+   }
+  ],
+  "Mybo": [
+   {
+    "model": "Elite"
+   },
+   {
+    "model": "Mykan"
+   },
+   {
+    "model": "Pathfinder"
+   },
+   {
+    "model": "Talis"
+   },
+   {
+    "model": "Wave XL"
+   },
+   {
+    "model": "Wave XR"
+   },
+   {
+    "model": "Wave XS"
+   }
+  ],
+  "Samick": [
+   {
+    "model": "Athlete"
+   },
+   {
+    "model": "Avante"
+   },
+   {
+    "model": "Discovery"
+   },
+   {
+    "model": "Kronos"
+   },
+   {
+    "model": "Max Pro"
+   }
+  ],
+  "Sanlida": [
+   {
+    "model": "Miracle X10"
+   },
+   {
+    "model": "Myth 10"
+   }
+  ],
+  "SF Archery": [
+   {
+    "model": "Ascent"
+   },
+   {
+    "model": "Axiom"
+   },
+   {
+    "model": "Axiom+"
+   },
+   {
+    "model": "Evo"
+   },
+   {
+    "model": "ISO Pro"
+   },
+   {
+    "model": "Neo"
+   },
+   {
+    "model": "Newtron"
+   },
+   {
+    "model": "Velocity"
+   },
+   {
+    "model": "Xelium"
+   }
+  ],
+  "Spigarelli": [
+   {
+    "model": "BB V2"
+   },
+   {
+    "model": "DMS"
+   },
+   {
+    "model": "Revolution"
+   },
+   {
+    "model": "Revolution 2"
+   },
+   {
+    "model": "Revolution BB"
+   },
+   {
+    "model": "Zen"
+   }
+  ],
+  "Topoint": [
+   {
+    "model": "Endeavor R10"
+   },
+   {
+    "model": "Unison"
+   }
+  ],
+  "Uukha": [
+   {
+    "model": "Xpro2"
+   },
+   {
+    "model": "Xpro3"
+   }
+  ],
+  "Win&Win": [
+   {
+    "model": "Inno CXT"
+   },
+   {
+    "model": "Wiawis ATF-DX"
+   },
+   {
+    "model": "Wiawis ATF-EX"
+   },
+   {
+    "model": "Wiawis ATF-X"
+   },
+   {
+    "model": "Wiawis CX7"
+   },
+   {
+    "model": "Wiawis Meta DX"
+   },
+   {
+    "model": "Wiawis TFT-G"
+   },
+   {
+    "model": "Winex"
+   },
+   {
+    "model": "WNS Delta NX"
+   },
+   {
+    "model": "WNS Elnath FX"
+   },
+   {
+    "model": "WNS Eolla"
+   },
+   {
+    "model": "WNS Explore DX"
+   },
+   {
+    "model": "WNS FC-100"
+   },
+   {
+    "model": "WNS Motive FX"
+   },
+   {
+    "model": "WNS SF Vulcan X"
+   }
+  ]
+ },
+ "limbs": {
+  "Border": [
+   {
+    "model": "HEX7"
+   },
+   {
+    "model": "HEX9"
+   }
+  ],
+  "Cartel": [
+   {
+    "model": "Fantom"
+   }
+  ],
+  "Core": [
+   {
+    "model": "Prelude"
+   },
+   {
+    "model": "Prestige"
+   },
+   {
+    "model": "Prestige V2"
+   },
+   {
+    "model": "Tegra"
+   },
+   {
+    "model": "Velora"
+   }
+  ],
+  "Fivics": [
+   {
+    "model": "Argon X"
+   },
+   {
+    "model": "Skadi"
+   },
+   {
+    "model": "Skadi-TX"
+   },
+   {
+    "model": "Titan EX"
+   },
+   {
+    "model": "Titan NX"
+   },
+   {
+    "model": "Vellator V3"
+   }
+  ],
+  "Galaxy": [
+   {
+    "model": "Gold Star"
+   },
+   {
+    "model": "Sear"
+   },
+   {
+    "model": "Silver Star"
+   }
+  ],
+  "Gillo": [
+   {
+    "model": "GTL C99"
+   },
+   {
+    "model": "GTL Q8"
+   }
+  ],
+  "Hoyt": [
+   {
+    "model": "Carbon 840"
+   },
+   {
+    "model": "Excel"
+   },
+   {
+    "model": "Integra"
+   },
+   {
+    "model": "Metrix"
+   },
+   {
+    "model": "Quattro"
+   },
+   {
+    "model": "RCRV Comp"
+   },
+   {
+    "model": "RCRV Podium"
+   },
+   {
+    "model": "Satori"
+   },
+   {
+    "model": "Velos"
+   }
+  ],
+  "Kaya": [
+   {
+    "model": "Delphinus"
+   },
+   {
+    "model": "KSTORM"
+   }
+  ],
+  "Kinetic": [
+   {
+    "model": "Astonix"
+   },
+   {
+    "model": "Avantage"
+   },
+   {
+    "model": "Engage"
+   },
+   {
+    "model": "Fury 3K"
+   },
+   {
+    "model": "Fury X 3K"
+   },
+   {
+    "model": "Honoric"
+   },
+   {
+    "model": "Honoric V2"
+   },
+   {
+    "model": "Vaultage V2"
+   }
+  ],
+  "MK Archery": [
+   {
+    "model": "M3"
+   },
+   {
+    "model": "N3"
+   },
+   {
+    "model": "N3+"
+   },
+   {
+    "model": "XD"
+   },
+   {
+    "model": "Xenon"
+   },
+   {
+    "model": "Zest"
+   }
+  ],
+  "Mybo": [
+   {
+    "model": "Arca"
+   },
+   {
+    "model": "Luna"
+   },
+   {
+    "model": "Nexa"
+   },
+   {
+    "model": "Pathfinder Carbon"
+   },
+   {
+    "model": "Star"
+   },
+   {
+    "model": "Synergy 360"
+   },
+   {
+    "model": "Synergy Carbon"
+   },
+   {
+    "model": "Synergy Sky"
+   },
+   {
+    "model": "Synergy Star"
+   }
+  ],
+  "Samick": [
+   {
+    "model": "Extreme Carbon"
+   },
+   {
+    "model": "Ideal"
+   },
+   {
+    "model": "Impress"
+   }
+  ],
+  "Sanlida": [
+   {
+    "model": "Miracle X7"
+   },
+   {
+    "model": "Miracle X8"
+   },
+   {
+    "model": "Miracle X9"
+   },
+   {
+    "model": "Miracle X10"
+   }
+  ],
+  "SF Archery": [
+   {
+    "model": "Ascent"
+   },
+   {
+    "model": "Atom"
+   },
+   {
+    "model": "Axiom"
+   },
+   {
+    "model": "Axiom+"
+   },
+   {
+    "model": "Evo"
+   },
+   {
+    "model": "Ignio"
+   },
+   {
+    "model": "ISO Pro"
+   },
+   {
+    "model": "Neo"
+   },
+   {
+    "model": "Newtron"
+   }
+  ],
+  "Uukha": [
+   {
+    "model": "Altaï"
+   },
+   {
+    "model": "Ex1"
+   },
+   {
+    "model": "Sx50"
+   },
+   {
+    "model": "Sx100"
+   },
+   {
+    "model": "Sx+"
+   },
+   {
+    "model": "U5 Alpha"
+   },
+   {
+    "model": "U5 Omega"
+   },
+   {
+    "model": "U5 Sigma"
+   },
+   {
+    "model": "Uureg"
+   }
+  ],
+  "Win&Win": [
+   {
+    "model": "Wiawis CX7"
+   },
+   {
+    "model": "Wiawis MXT-XP"
+   },
+   {
+    "model": "Wiawis MXT-XT"
+   },
+   {
+    "model": "Wiawis NS-G"
+   },
+   {
+    "model": "Wiawis NS-G2"
+   },
+   {
+    "model": "Wiawis NS-XP"
+   },
+   {
+    "model": "Wiawis One"
+   },
+   {
+    "model": "Winex"
+   },
+   {
+    "model": "WNS Armato C3"
+   },
+   {
+    "model": "WNS Delta F3"
+   },
+   {
+    "model": "WNS Explore W1"
+   },
+   {
+    "model": "WNS Motive F5"
+   },
+   {
+    "model": "WNS Procyon C5"
+   },
+   {
+    "model": "WNS SF Hyperion G8"
+   },
+   {
+    "model": "WNS SF Trinity C6"
+   }
+  ]
+ },
+ "arrows": {
+  "Altra": [
+   {
+    "model": "Centrum 23 Limited",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "400"
+    ],
+    "gpi": {
+     "300": 8.3,
+     "400": 7.9
+    },
+    "innerDiameterMm": 9.1
+   },
+   {
+    "model": "Centrum 23 Premier",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "400"
+    ],
+    "gpi": {
+     "300": 8.3,
+     "400": 7.9
+    },
+    "innerDiameterMm": 9.1
+   },
+   {
+    "model": "Centrum 25 Limited",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "350"
+    ],
+    "gpi": {
+     "250": 7.9,
+     "350": 7
+    }
+   },
+   {
+    "model": "Centrum 25 Premier",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "350"
+    ],
+    "gpi": {
+     "250": 7.9,
+     "350": 7
+    }
+   },
+   {
+    "model": "Centrum 27 Limited",
+    "material": "carbon",
+    "spines": [
+     "200",
+     "300"
+    ],
+    "gpi": {
+     "200": 8.9,
+     "300": 8.3
+    }
+   },
+   {
+    "model": "Centrum 27 Premier",
+    "material": "carbon",
+    "spines": [
+     "200",
+     "300"
+    ],
+    "gpi": {
+     "200": 8.9,
+     "300": 8.3
+    }
+   },
+   {
+    "model": "Centrum 166 Limited",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 11.8,
+     "300": 10.5,
+     "350": 9.4,
+     "400": 8.5,
+     "500": 7.4
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Centrum 166 Premier",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 11.8,
+     "300": 10.5,
+     "350": 9.4,
+     "400": 8.5,
+     "500": 7.4
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Centrum 204 Limited",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 10.7,
+     "300": 9.1,
+     "350": 8.2,
+     "400": 7.7,
+     "500": 7.3
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "Centrum 204 Premier",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 10.7,
+     "300": 9.1,
+     "350": 8.2,
+     "400": 7.7,
+     "500": 7.3
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "Centrum 246 Limited",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 10.6,
+     "300": 9.7,
+     "350": 8.8,
+     "400": 8.2,
+     "500": 7.1
+    },
+    "innerDiameterMm": 6.3
+   },
+   {
+    "model": "Centrum 246 Premier",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 10.6,
+     "300": 9.7,
+     "350": 8.8,
+     "400": 8.2,
+     "500": 7.1
+    },
+    "innerDiameterMm": 6.3
+   },
+   {
+    "model": "Phantom 166 Limited",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 9.8,
+     "300": 8.5,
+     "350": 8,
+     "400": 7.1,
+     "500": 6.2
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Phantom 166 Premier",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 9.8,
+     "300": 8.5,
+     "350": 8,
+     "400": 7.1,
+     "500": 6.2
+    },
+    "innerDiameterMm": 4.2
+   }
+  ],
+  "Avalon": [
+   {
+    "model": "Classic",
+    "material": "carbon",
+    "spines": [
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300",
+     "1500",
+     "1800",
+     "2000"
+    ],
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Hybrid",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300",
+     "1500",
+     "1800",
+     "2000"
+    ],
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Tec One",
+    "material": "carbon",
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Tyro",
+    "material": "carbon",
+    "spines": [
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300",
+     "1500",
+     "1800",
+     "2000"
+    ],
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Tyro Traditional",
+    "material": "carbon",
+    "spines": [
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300",
+     "1500"
+    ],
+    "innerDiameterMm": 4.2
+   }
+  ],
+  "Bearpaw": [
+   {
+    "model": "Penthalon Hunter"
+   },
+   {
+    "model": "Penthalon Traditional"
+   },
+   {
+    "model": "Penthalon Traditional Extreme"
+   }
+  ],
+  "Black Eagle": [
+   {
+    "model": "Focus",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400"
+    ],
+    "gpi": {
+     "250": 10.5,
+     "300": 9.7,
+     "350": 8.2,
+     "400": 7.6
+    },
+    "diameterMm": {
+     "250": 6.2,
+     "300": 6.1,
+     "350": 5.8,
+     "400": 5.7
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Intrepid",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1200",
+     "1300",
+     "1400"
+    ],
+    "gpi": {
+     "500": 8.3,
+     "600": 7.1,
+     "700": 6.4,
+     "800": 6,
+     "900": 5.3,
+     "1000": 5.1,
+     "1100": 4.8,
+     "1200": 5.1,
+     "1300": 4.9,
+     "1400": 4.8
+    },
+    "diameterMm": {
+     "500": 5.9,
+     "600": 5.7,
+     "700": 5.6,
+     "800": 5.5,
+     "900": 5.4,
+     "1000": 5.4,
+     "1100": 5.3,
+     "1200": 5.4,
+     "1300": 5.3,
+     "1400": 5.3
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "PS23",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "250": 9,
+     "300": 8.2,
+     "350": 7.9,
+     "400": 7.3,
+     "500": 7.1
+    },
+    "diameterMm": {
+     "250": 9.1,
+     "300": 9,
+     "350": 9,
+     "400": 9,
+     "500": 8.9
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "PS25",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "350",
+     "400"
+    ],
+    "gpi": {
+     "250": 8.8,
+     "300": 8.2,
+     "350": 7.7,
+     "400": 7.2
+    },
+    "diameterMm": {
+     "250": 9.8,
+     "300": 9.7,
+     "350": 9.7,
+     "400": 9.6
+    },
+    "innerDiameterMm": 8.8
+   },
+   {
+    "model": "PS27 Super X",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350"
+    ],
+    "gpi": {
+     "300": 9.6,
+     "350": 9.4
+    },
+    "diameterMm": {
+     "300": 10.7,
+     "350": 10.6
+    },
+    "innerDiameterMm": 9.7
+   },
+   {
+    "model": "Revelation",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "800"
+    ],
+    "gpi": {
+     "300": 10.2,
+     "350": 9,
+     "400": 8.1,
+     "450": 7.5,
+     "500": 7,
+     "550": 6.5,
+     "600": 6.3,
+     "650": 6,
+     "700": 5.8,
+     "750": 5.6,
+     "800": 5.3
+    },
+    "diameterMm": {
+     "300": 5.5,
+     "350": 5.4,
+     "400": 5.3,
+     "450": 5.1,
+     "500": 5,
+     "550": 4.9,
+     "600": 4.9,
+     "650": 4.8,
+     "700": 4.7,
+     "750": 4.7,
+     "800": 4.7
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "X Impact",
+    "material": "carbon",
+    "spines": [
+     "200",
+     "250",
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "200": 11,
+     "250": 9.5,
+     "300": 8.1,
+     "350": 7.4,
+     "400": 6.7,
+     "500": 5.8
+    },
+    "diameterMm": {
+     "200": 6.5,
+     "250": 6.1,
+     "300": 5.9,
+     "350": 5.8,
+     "400": 5.6,
+     "500": 5.4
+    },
+    "innerDiameterMm": 4.2
+   }
+  ],
+  "Carbon Express": [
+   {
+    "model": "CXL Pro",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "250",
+     "150"
+    ],
+    "gpi": {
+     "350": 7.14,
+     "250": 6.47,
+     "150": 6
+    },
+    "diameterMm": {
+     "350": 9,
+     "250": 8.9,
+     "150": 8.1
+    }
+   },
+   {
+    "model": "LineJammer Pro",
+    "material": "carbon",
+    "diameterMmRange": {
+     "min": 9.7,
+     "max": 9.7
+    }
+   },
+   {
+    "model": "Maxima XL 23",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "400",
+     "350"
+    ],
+    "innerDiameterMm": 9.1
+   },
+   {
+    "model": "Maxima XL 25",
+    "material": "carbon",
+    "spines": [
+     "400",
+     "300"
+    ]
+   },
+   {
+    "model": "Maxima XL 27",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "240"
+    ]
+   },
+   {
+    "model": "Medallion-Pro",
+    "material": "carbon",
+    "spines": [
+     "1000",
+     "900",
+     "800",
+     "710",
+     "650",
+     "590",
+     "530",
+     "470",
+     "410"
+    ],
+    "gpi": {
+     "1000": 5,
+     "900": 5.3,
+     "800": 5.7,
+     "710": 6,
+     "650": 6.5,
+     "590": 6.9,
+     "530": 7.3,
+     "470": 7.8,
+     "410": 8.5
+    },
+    "diameterMm": {
+     "1000": 5.4,
+     "900": 5.5,
+     "800": 5.5,
+     "710": 5.6,
+     "650": 5.7,
+     "590": 5.7,
+     "530": 5.8,
+     "470": 5.9,
+     "410": 6.1
+    }
+   },
+   {
+    "model": "Nano Pro RZ",
+    "material": "carbon",
+    "spines": [
+     "600",
+     "550",
+     "500",
+     "450",
+     "400",
+     "350",
+     "300"
+    ],
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "Nano Pro X-Treme",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "650",
+     "600",
+     "550",
+     "500",
+     "450",
+     "400"
+    ],
+    "gpi": {
+     "700": 6,
+     "650": 6.2,
+     "600": 6.7,
+     "550": 7.1,
+     "500": 7.75,
+     "450": 8.02,
+     "400": 8.69
+    },
+    "diameterMm": {
+     "700": 4.7,
+     "650": 4.8,
+     "600": 4.8,
+     "550": 4.9,
+     "500": 5.1,
+     "450": 5.1,
+     "400": 5.2
+    }
+   },
+   {
+    "model": "Nano SST",
+    "material": "carbon",
+    "spines": [
+     "1000",
+     "750",
+     "600",
+     "550",
+     "500"
+    ],
+    "gpi": {
+     "1000": 5.11,
+     "750": 6.38,
+     "600": 7.33,
+     "550": 7.79,
+     "500": 8.18
+    },
+    "diameterMm": {
+     "1000": 5,
+     "750": 5.2,
+     "600": 5.4,
+     "550": 5.5,
+     "500": 5.6
+    }
+   },
+   {
+    "model": "Nano-Pro",
+    "material": "carbon",
+    "spines": [
+     "750",
+     "700",
+     "650",
+     "600",
+     "450",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "750": 6,
+     "700": 6.2,
+     "650": 6.4,
+     "600": 6.8,
+     "450": 8,
+     "400": 8.6,
+     "350": 9.5
+    },
+    "diameterMm": {
+     "750": 4.7,
+     "700": 4.7,
+     "650": 4.7,
+     "600": 4.8,
+     "450": 5.1,
+     "400": 5.2,
+     "350": 5.4
+    }
+   },
+   {
+    "model": "Nano-XR",
+    "material": "carbon",
+    "spines": [
+     "900",
+     "830",
+     "730",
+     "680",
+     "630",
+     "580",
+     "530",
+     "490",
+     "450",
+     "410",
+     "380"
+    ],
+    "gpi": {
+     "900": 5.5,
+     "830": 5.8,
+     "730": 6.2,
+     "680": 6.4,
+     "630": 6.6,
+     "580": 7.2,
+     "530": 7.5,
+     "490": 7.8,
+     "450": 8.1,
+     "410": 8.6,
+     "380": 9
+    },
+    "diameterMm": {
+     "900": 4.7,
+     "830": 4.8,
+     "730": 4.9,
+     "680": 4.9,
+     "630": 5,
+     "580": 5.1,
+     "530": 5.2,
+     "490": 5.2,
+     "450": 5.3,
+     "410": 5.4,
+     "380": 5.4
+    }
+   },
+   {
+    "model": "X-Buster",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "600": 9,
+     "500": 9,
+     "400": 9.5,
+     "350": 10.2
+    },
+    "diameterMm": {
+     "600": 8.4,
+     "500": 9.1,
+     "400": 9.1,
+     "350": 9.2
+    }
+   },
+   {
+    "model": "X-Jammer 27 Pro",
+    "material": "carbon",
+    "diameterMmRange": {
+     "min": 10.5,
+     "max": 10.5
+    }
+   }
+  ],
+  "Cross-X": [
+   {
+    "model": "Ambition",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300",
+     "1500",
+     "1800"
+    ],
+    "gpi": {
+     "500": 8.1,
+     "600": 7,
+     "700": 6.3,
+     "800": 5.9,
+     "900": 5.5,
+     "1000": 5,
+     "1100": 4.9,
+     "1300": 4.7,
+     "1500": 4.2,
+     "1800": 3.9
+    },
+    "diameterMm": {
+     "500": 5.9,
+     "600": 5.7,
+     "700": 5.6,
+     "800": 5.4,
+     "900": 5.4,
+     "1000": 5.3,
+     "1100": 5.3,
+     "1300": 5.2,
+     "1500": 5.1,
+     "1800": 5.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Ambition Gold Edition",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300",
+     "1500",
+     "1800"
+    ],
+    "gpi": {
+     "500": 8.1,
+     "600": 7,
+     "700": 6.3,
+     "800": 5.9,
+     "900": 5.5,
+     "1000": 5,
+     "1100": 4.9,
+     "1300": 4.7,
+     "1500": 4.2,
+     "1800": 3.9
+    },
+    "diameterMm": {
+     "500": 5.9,
+     "600": 5.7,
+     "700": 5.6,
+     "800": 5.4,
+     "900": 5.4,
+     "1000": 5.3,
+     "1100": 5.3,
+     "1300": 5.2,
+     "1500": 5.1,
+     "1800": 5.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Ambition Silver Edition",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300",
+     "1500",
+     "1800"
+    ],
+    "gpi": {
+     "500": 8.1,
+     "600": 7,
+     "700": 6.3,
+     "800": 5.9,
+     "900": 5.5,
+     "1000": 5,
+     "1100": 4.9,
+     "1300": 4.7,
+     "1500": 4.2,
+     "1800": 3.9
+    },
+    "diameterMm": {
+     "500": 5.9,
+     "600": 5.7,
+     "700": 5.6,
+     "800": 5.4,
+     "900": 5.4,
+     "1000": 5.3,
+     "1100": 5.3,
+     "1300": 5.2,
+     "1500": 5.1,
+     "1800": 5.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Avatar",
+    "material": "carbon",
+    "spines": [
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900"
+    ],
+    "gpi": {
+     "400": 8.51,
+     "500": 8.16,
+     "600": 7.17,
+     "700": 6.77,
+     "800": 5.97,
+     "900": 5.58
+    },
+    "diameterMm": {
+     "400": 6.7,
+     "500": 6.6,
+     "600": 6.5,
+     "700": 6.3,
+     "800": 6.3,
+     "900": 6.2
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "Element",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "900",
+     "1100",
+     "1300",
+     "1500",
+     "1800",
+     "2000"
+    ],
+    "gpi": {
+     "700": 6.08,
+     "900": 5.5,
+     "1100": 4.44,
+     "1300": 4.24,
+     "1500": 3.71,
+     "1800": 3.6,
+     "2000": 3.2
+    },
+    "diameterMm": {
+     "700": 5.5,
+     "900": 5.4,
+     "1100": 5.2,
+     "1300": 5.1,
+     "1500": 5,
+     "1800": 5,
+     "2000": 5
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Fulmen",
+    "material": "carbon",
+    "spines": [
+     "400",
+     "500",
+     "600",
+     "700",
+     "800"
+    ],
+    "gpi": {
+     "400": 6.47,
+     "500": 5.68,
+     "600": 5.11,
+     "700": 4.77,
+     "800": 4.49
+    },
+    "diameterMm": {
+     "400": 7.2,
+     "500": 7,
+     "600": 7,
+     "700": 7,
+     "800": 6.9
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "Fulmen XXL",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "500"
+    ],
+    "gpi": {
+     "300": 8.05,
+     "350": 7.81,
+     "400": 7.23,
+     "500": 6.99
+    },
+    "diameterMm": {
+     "300": 9,
+     "350": 9,
+     "400": 9,
+     "500": 8.9
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "Gladiator",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800"
+    ],
+    "gpi": {
+     "350": 8.6,
+     "400": 8.1,
+     "500": 7.4,
+     "600": 6.8,
+     "700": 5.9,
+     "800": 5.75
+    },
+    "diameterMm": {
+     "350": 7.5,
+     "400": 7.5,
+     "500": 7.3,
+     "600": 7.2,
+     "700": 7.2,
+     "800": 7.1
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "Hurricane",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1300"
+    ],
+    "gpi": {
+     "350": 7.4,
+     "400": 6.7,
+     "500": 5.84,
+     "600": 5.84,
+     "700": 5.79,
+     "800": 5.3,
+     "900": 5,
+     "1000": 5.21,
+     "1100": 5.5,
+     "1300": 3.4
+    },
+    "diameterMm": {
+     "350": 5.8,
+     "400": 5.6,
+     "500": 5.4,
+     "600": 5.4,
+     "700": 5.5,
+     "800": 5.4,
+     "900": 5.3,
+     "1000": 5.4,
+     "1100": 5.4,
+     "1300": 5
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Iridium",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "900",
+     "1100",
+     "1300",
+     "1500"
+    ],
+    "gpi": {
+     "700": 5.9,
+     "900": 5.3,
+     "1100": 4.4,
+     "1300": 4.1,
+     "1500": 3.6
+    },
+    "diameterMm": {
+     "700": 5.5,
+     "900": 5.4,
+     "1100": 5.2,
+     "1300": 5.1,
+     "1500": 5
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Maior",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100"
+    ],
+    "gpi": {
+     "350": 9.52,
+     "400": 8.58,
+     "500": 7.67,
+     "600": 6.97,
+     "700": 6.27,
+     "800": 5.79,
+     "900": 5.06,
+     "1000": 4.34,
+     "1100": 4.15
+    },
+    "diameterMm": {
+     "350": 6.1,
+     "400": 5.9,
+     "500": 5.8,
+     "600": 5.7,
+     "700": 5.6,
+     "800": 5.5,
+     "900": 5.3,
+     "1000": 5.2,
+     "1100": 5.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Pegasus",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000"
+    ],
+    "gpi": {
+     "500": 9.25,
+     "600": 7.76,
+     "700": 6.77,
+     "800": 6.32,
+     "900": 5.68,
+     "1000": 5.1
+    },
+    "diameterMm": {
+     "500": 5.9,
+     "600": 5.7,
+     "700": 5.6,
+     "800": 5.5,
+     "900": 5.4,
+     "1000": 5.5
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Plurima",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "800"
+    ],
+    "gpi": {
+     "350": 9.07,
+     "400": 8.34,
+     "450": 7.76,
+     "500": 7.23,
+     "550": 6.75,
+     "600": 6.46,
+     "650": 6.12,
+     "700": 5.79,
+     "750": 5.59,
+     "800": 5.35
+    },
+    "diameterMm": {
+     "350": 5.4,
+     "400": 5.3,
+     "450": 5.2,
+     "500": 5,
+     "550": 5,
+     "600": 4.9,
+     "650": 4.8,
+     "700": 4.7,
+     "750": 4.7,
+     "800": 4.6
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "Raptor",
+    "material": "carbon",
+    "spines": [
+     "340",
+     "400",
+     "500",
+     "700",
+     "800"
+    ],
+    "gpi": {
+     "340": 8.15,
+     "400": 6.87,
+     "500": 6.08,
+     "700": 5.06,
+     "800": 4.53
+    },
+    "diameterMm": {
+     "340": 6.7,
+     "400": 6.5,
+     "500": 6.3,
+     "700": 6.2,
+     "800": 6.1
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "XXIII",
+    "material": "carbon",
+    "spines": [
+     "350"
+    ],
+    "gpi": {
+     "350": 10.3
+    },
+    "diameterMm": {
+     "350": 9.3
+    },
+    "innerDiameterMm": 8
+   }
+  ],
+  "Easton": [
+   {
+    "model": "A/C/E",
+    "material": "carbonAluminium",
+    "spines": [
+     "370",
+     "400",
+     "430",
+     "470",
+     "520",
+     "570",
+     "620",
+     "670",
+     "720",
+     "780",
+     "850",
+     "920",
+     "1000",
+     "1100",
+     "1250"
+    ],
+    "gpi": {
+     "370": 7.9,
+     "400": 7.5,
+     "430": 7,
+     "470": 6.8,
+     "520": 6.7,
+     "570": 6.3,
+     "620": 6.1,
+     "670": 5.9,
+     "720": 6.4,
+     "780": 6,
+     "850": 5.7,
+     "920": 5.8,
+     "1000": 5.7,
+     "1100": 5.1,
+     "1250": 5.1
+    },
+    "diameterMm": {
+     "370": 5.8,
+     "400": 5.8,
+     "430": 5.7,
+     "470": 5.7,
+     "520": 5.5,
+     "570": 5.5,
+     "620": 5.4,
+     "670": 5.4,
+     "720": 5.5,
+     "780": 5.5,
+     "850": 5.4,
+     "920": 5.4,
+     "1000": 5.4,
+     "1100": 5.2,
+     "1250": 5.2
+    },
+    "innerDiameterMm": 4
+   },
+   {
+    "model": "A/C/G",
+    "spines": [
+     "430",
+     "1000",
+     "1500"
+    ],
+    "gpi": {
+     "430": 8.9,
+     "1000": 5.5,
+     "1500": 4.7
+    },
+    "diameterMmRange": {
+     "min": 5.1,
+     "max": 5.8
+    },
+    "innerDiameterMm": 4
+   },
+   {
+    "model": "Avance",
+    "material": "carbon",
+    "spines": [
+     "340",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "660",
+     "730",
+     "810",
+     "900",
+     "1000",
+     "1150",
+     "1400",
+     "1600",
+     "1800",
+     "2000"
+    ],
+    "gpi": {
+     "340": 8.8,
+     "400": 7.9,
+     "450": 7.4,
+     "500": 6.9,
+     "550": 6.5,
+     "600": 6.5,
+     "660": 6.2,
+     "730": 5.7,
+     "810": 5.5,
+     "900": 5.2,
+     "1000": 4.9,
+     "1150": 4.9,
+     "1400": 4.2,
+     "1600": 3.8,
+     "1800": 3.6,
+     "2000": 3.4
+    },
+    "diameterMm": {
+     "340": 6.1,
+     "400": 5.9,
+     "450": 5.8,
+     "500": 5.8,
+     "550": 5.7,
+     "600": 5.7,
+     "660": 5.6,
+     "730": 5.5,
+     "810": 5.5,
+     "900": 5.4,
+     "1000": 5.3,
+     "1150": 5.3,
+     "1400": 5.2,
+     "1600": 5.1,
+     "1800": 5.1,
+     "2000": 5
+    },
+    "innerDiameterMm": 4
+   },
+   {
+    "model": "Avance Sport",
+    "material": "carbon",
+    "spines": [
+     "340",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "660",
+     "730",
+     "810",
+     "900",
+     "1000",
+     "1150",
+     "1400",
+     "1600",
+     "1800",
+     "2000"
+    ],
+    "gpi": {
+     "340": 8.8,
+     "400": 7.9,
+     "450": 7.4,
+     "500": 6.9,
+     "550": 6.5,
+     "600": 6.5,
+     "660": 6.2,
+     "730": 5.7,
+     "810": 5.5,
+     "900": 5.2,
+     "1000": 4.9,
+     "1150": 4.9,
+     "1400": 4.2,
+     "1600": 3.8,
+     "1800": 3.6,
+     "2000": 3.4
+    },
+    "diameterMm": {
+     "340": 6.1,
+     "400": 5.9,
+     "450": 5.8,
+     "500": 5.8,
+     "550": 5.7,
+     "600": 5.7,
+     "660": 5.6,
+     "730": 5.5,
+     "810": 5.5,
+     "900": 5.4,
+     "1000": 5.3,
+     "1150": 5.3,
+     "1400": 5.2,
+     "1600": 5.1,
+     "1800": 5.1,
+     "2000": 5
+    },
+    "innerDiameterMm": 4
+   },
+   {
+    "model": "Genesis",
+    "material": "aluminium",
+    "spines": [
+     "1820"
+    ],
+    "gpi": {
+     "1820": 12.2
+    },
+    "diameterMm": {
+     "1820": 7.2
+    }
+   },
+   {
+    "model": "Inspire",
+    "material": "carbon",
+    "spines": [
+     "570",
+     "630",
+     "750",
+     "900",
+     "1000",
+     "1200",
+     "1400",
+     "1600",
+     "1800",
+     "2000"
+    ],
+    "gpi": {
+     "570": 8.2,
+     "630": 7.9,
+     "750": 8.1,
+     "900": 7.7,
+     "1000": 7.2,
+     "1200": 7.2,
+     "1400": 4.2,
+     "1600": 3.8,
+     "1800": 3.6,
+     "2000": 3.4
+    },
+    "diameterMm": {
+     "570": 6.5,
+     "630": 6.5,
+     "750": 5.8,
+     "900": 5.7,
+     "1000": 5.6,
+     "1200": 5.6,
+     "1400": 5.2,
+     "1600": 5.1,
+     "1800": 5.1,
+     "2000": 5
+    }
+   },
+   {
+    "model": "Jazz",
+    "material": "aluminium",
+    "spines": [
+     "2016",
+     "1916",
+     "1816",
+     "1716",
+     "1616",
+     "1516",
+     "1416",
+     "1214"
+    ],
+    "gpi": {
+     "2016": 10.6,
+     "1916": 10,
+     "1816": 9.3,
+     "1716": 9,
+     "1616": 8.4,
+     "1516": 7.3,
+     "1416": 7.2,
+     "1214": 5.9
+    },
+    "diameterMm": {
+     "2016": 7.9,
+     "1916": 7.5,
+     "1816": 7.1,
+     "1716": 6.8,
+     "1616": 6.4,
+     "1516": 5.9,
+     "1416": 5.6,
+     "1214": 5
+    }
+   },
+   {
+    "model": "RX7",
+    "material": "aluminium",
+    "spines": [
+     "23-420",
+     "22-475",
+     "21-525"
+    ],
+    "gpi": {
+     "23-420": 10.4,
+     "22-475": 9.7,
+     "21-525": 9.3
+    },
+    "diameterMm": {
+     "23-420": 9.3,
+     "22-475": 8.8,
+     "21-525": 8.3
+    }
+   },
+   {
+    "model": "SuperDrive 19",
+    "material": "carbon",
+    "spines": [
+     "330",
+     "380",
+     "460"
+    ],
+    "gpi": {
+     "330": 8.4,
+     "380": 7.8,
+     "460": 7
+    },
+    "diameterMm": {
+     "330": 7.1,
+     "380": 7.1,
+     "460": 6.9
+    }
+   },
+   {
+    "model": "SuperDrive 23",
+    "material": "carbon",
+    "spines": [
+     "325",
+     "375",
+     "475"
+    ],
+    "gpi": {
+     "325": 7.8,
+     "375": 7.3,
+     "475": 6.8
+    },
+    "diameterMm": {
+     "325": 9.2,
+     "375": 9.1,
+     "475": 9
+    },
+    "innerDiameterMm": 9.1
+   },
+   {
+    "model": "SuperDrive 25",
+    "material": "carbon",
+    "spines": [
+     "290"
+    ],
+    "gpi": {
+     "290": 7.8
+    },
+    "diameterMm": {
+     "290": 10.1
+    }
+   },
+   {
+    "model": "SuperDrive 27 Match Grade",
+    "material": "carbon",
+    "spines": [
+     "270"
+    ],
+    "gpi": {
+     "270": 9
+    },
+    "diameterMm": {
+     "270": 10.7
+    }
+   },
+   {
+    "model": "SuperDrive Micro",
+    "material": "carbon",
+    "spines": [
+     "325",
+     "375",
+     "425",
+     "475",
+     "525",
+     "575",
+     "625",
+     "675",
+     "750",
+     "850",
+     "950"
+    ],
+    "gpi": {
+     "325": 8.1,
+     "375": 7.4,
+     "425": 6.8,
+     "475": 6.4,
+     "525": 6.2,
+     "575": 5.9,
+     "625": 5.7,
+     "675": 5.6,
+     "750": 5.5,
+     "850": 5.3,
+     "950": 5.1
+    },
+    "diameterMm": {
+     "325": 5.9,
+     "375": 5.8,
+     "425": 5.7,
+     "475": 5.6,
+     "525": 5.5,
+     "575": 5.5,
+     "625": 5.5,
+     "675": 5.5,
+     "750": 5.4,
+     "850": 5.4,
+     "950": 5.3
+    },
+    "innerDiameterMm": 4
+   },
+   {
+    "model": "Vector",
+    "material": "carbon",
+    "spines": [
+     "600",
+     "800",
+     "1000",
+     "1200",
+     "1400",
+     "1600",
+     "1800",
+     "2000"
+    ],
+    "gpi": {
+     "600": 7.6,
+     "800": 6.2,
+     "1000": 5.4,
+     "1200": 5.1,
+     "1400": 4.2,
+     "1600": 3.8,
+     "1800": 3.6,
+     "2000": 3.4
+    },
+    "diameterMm": {
+     "600": 5.8,
+     "800": 5.6,
+     "1000": 5.4,
+     "1200": 5.4,
+     "1400": 5.2,
+     "1600": 5.1,
+     "1800": 5.1,
+     "2000": 5
+    },
+    "innerDiameterMm": 4
+   },
+   {
+    "model": "X7 Eclipse",
+    "material": "aluminium",
+    "spines": [
+     "2413",
+     "2214",
+     "2213",
+     "2114",
+     "2014",
+     "1914",
+     "1814",
+     "1714",
+     "1614",
+     "1514"
+    ],
+    "gpi": {
+     "2413": 10.5,
+     "2214": 10.4,
+     "2213": 9.9,
+     "2114": 9.9,
+     "2014": 9.6,
+     "1914": 9.3,
+     "1814": 8.6,
+     "1714": 8.1,
+     "1614": 7.7,
+     "1514": 6.8
+    },
+    "diameterMm": {
+     "2413": 9.5,
+     "2214": 8.8,
+     "2213": 8.7,
+     "2114": 8.3,
+     "2014": 8,
+     "1914": 7.6,
+     "1814": 7.2,
+     "1714": 6.8,
+     "1614": 6.4,
+     "1514": 6.2
+    }
+   },
+   {
+    "model": "X10",
+    "material": "carbonAluminium",
+    "spines": [
+     "325",
+     "350",
+     "380",
+     "410",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "830",
+     "900",
+     "1000"
+    ],
+    "gpi": {
+     "325": 9.2,
+     "350": 8.8,
+     "380": 8.9,
+     "410": 8.5,
+     "450": 8.1,
+     "500": 7.8,
+     "550": 7.5,
+     "600": 7,
+     "650": 6.8,
+     "700": 6.7,
+     "750": 6.4,
+     "830": 6.2,
+     "900": 5.8,
+     "1000": 5.3
+    },
+    "diameterMm": {
+     "325": 5.6,
+     "350": 5.5,
+     "380": 5.5,
+     "410": 5.4,
+     "450": 5.3,
+     "500": 5.2,
+     "550": 5.2,
+     "600": 5.1,
+     "650": 5,
+     "700": 4.9,
+     "750": 4.9,
+     "830": 4.8,
+     "900": 4.7,
+     "1000": 4.6
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "X10 Parallel Pro 3.2mm",
+    "material": "carbonAluminium",
+    "spines": [
+     "340",
+     "380",
+     "420",
+     "460",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "800",
+     "900",
+     "1000"
+    ],
+    "gpi": {
+     "340": 10,
+     "380": 9.3,
+     "420": 8.9,
+     "460": 8.5,
+     "500": 8,
+     "550": 7.6,
+     "600": 7.3,
+     "650": 7,
+     "700": 6.8,
+     "750": 6.5,
+     "800": 6,
+     "900": 5.8,
+     "1000": 5.5
+    },
+    "diameterMm": {
+     "340": 5.5,
+     "380": 5.3,
+     "420": 5.3,
+     "460": 5.2,
+     "500": 5.1,
+     "550": 5,
+     "600": 4.9,
+     "650": 4.9,
+     "700": 4.8,
+     "750": 4.7,
+     "800": 4.6,
+     "900": 4.6,
+     "1000": 4.5
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "X10 Parallel Pro 4mm",
+    "material": "carbonAluminium",
+    "spines": [
+     "250",
+     "300",
+     "340",
+     "380",
+     "420",
+     "470",
+     "520",
+     "570",
+     "610",
+     "660",
+     "710",
+     "810",
+     "880",
+     "1000",
+     "1150"
+    ],
+    "gpi": {
+     "250": 10.8,
+     "300": 9.5,
+     "340": 8.9,
+     "380": 8.3,
+     "420": 7.8,
+     "470": 7.3,
+     "520": 7,
+     "570": 6.6,
+     "610": 7.3,
+     "660": 6.9,
+     "710": 6.5,
+     "810": 6.1,
+     "880": 5.9,
+     "1000": 5.5,
+     "1150": 5.5
+    },
+    "diameterMm": {
+     "250": 6.2,
+     "300": 6,
+     "340": 5.9,
+     "380": 5.8,
+     "420": 5.7,
+     "470": 5.6,
+     "520": 5.5,
+     "570": 5.5,
+     "610": 5.5,
+     "660": 5.5,
+     "710": 5.4,
+     "810": 5.3,
+     "880": 5.3,
+     "1000": 5.2,
+     "1150": 5.3
+    },
+    "innerDiameterMm": 4
+   },
+   {
+    "model": "X10 ProTour",
+    "material": "carbonAluminium",
+    "spines": [
+     "340",
+     "380",
+     "420",
+     "470",
+     "520",
+     "570",
+     "620",
+     "670",
+     "720",
+     "770"
+    ],
+    "gpi": {
+     "340": 8.8,
+     "380": 8.4,
+     "420": 8,
+     "470": 7.6,
+     "520": 7.3,
+     "570": 6.9,
+     "620": 6.7,
+     "670": 6.5,
+     "720": 6.2,
+     "770": 6
+    },
+    "diameterMm": {
+     "340": 5.4,
+     "380": 5.3,
+     "420": 5.1,
+     "470": 5,
+     "520": 4.9,
+     "570": 4.9,
+     "620": 4.8,
+     "670": 4.7,
+     "720": 4.7,
+     "770": 4.6
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "X23",
+    "material": "aluminium",
+    "spines": [
+     "2312",
+     "2314",
+     "2315",
+     "2318"
+    ],
+    "gpi": {
+     "2312": 9.5,
+     "2314": 10.8,
+     "2315": 11.8,
+     "2318": 13.7
+    },
+    "diameterMm": {
+     "2312": 9.2,
+     "2314": 9.1,
+     "2315": 9.3,
+     "2318": 9.3
+    },
+    "innerDiameterMm": 9.1
+   },
+   {
+    "model": "X27",
+    "material": "aluminium",
+    "spines": [
+     "2712"
+    ],
+    "gpi": {
+     "2712": 11.3
+    },
+    "diameterMm": {
+     "2712": 10.7
+    }
+   },
+   {
+    "model": "XX75 Platinum Plus",
+    "material": "aluminium",
+    "spines": [
+     "2213",
+     "2114",
+     "2016",
+     "2013",
+     "1916",
+     "1913",
+     "1816",
+     "1716",
+     "1616",
+     "1516",
+     "1416"
+    ],
+    "gpi": {
+     "2213": 9.8,
+     "2114": 9.9,
+     "2016": 10.6,
+     "2013": 9,
+     "1916": 10,
+     "1913": 8.3,
+     "1816": 9.3,
+     "1716": 9,
+     "1616": 8.4,
+     "1516": 7.3,
+     "1416": 7.2
+    },
+    "diameterMm": {
+     "2213": 8.7,
+     "2114": 8.3,
+     "2016": 7.9,
+     "2013": 8,
+     "1916": 7.5,
+     "1913": 7.6,
+     "1816": 7.1,
+     "1716": 6.8,
+     "1616": 6.4,
+     "1516": 5.9,
+     "1416": 5.6
+    }
+   }
+  ],
+  "Gas Pro": [
+   {
+    "model": "Eagle 6.2",
+    "material": "carbon",
+    "spines": [
+     "250",
+     "300",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "700",
+     "750",
+     "800"
+    ],
+    "gpi": {
+     "250": 9.2,
+     "300": 9.2,
+     "400": 7.4,
+     "450": 6.6,
+     "500": 6.6,
+     "550": 6.1,
+     "600": 6.1,
+     "700": 4.9,
+     "750": 4.6,
+     "800": 4.6
+    },
+    "diameterMm": {
+     "250": 7.7,
+     "300": 7.6,
+     "400": 7.4,
+     "450": 7.3,
+     "500": 7.2,
+     "550": 7.1,
+     "600": 7.1,
+     "700": 7,
+     "750": 7,
+     "800": 7
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "Energy 8.0",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "400",
+     "500",
+     "600"
+    ],
+    "gpi": {
+     "300": 7.9,
+     "400": 7,
+     "500": 6.3,
+     "600": 5.9
+    },
+    "diameterMm": {
+     "300": 9,
+     "400": 9,
+     "500": 8.9,
+     "600": 8.8
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "Enjoy 4.2",
+    "material": "carbon",
+    "spines": [
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "850",
+     "900",
+     "950",
+     "1000",
+     "1050",
+     "1100",
+     "1150",
+     "1200",
+     "1250",
+     "1300",
+     "1450",
+     "1500",
+     "1750",
+     "1800"
+    ],
+    "gpi": {
+     "400": 9.8,
+     "500": 8.1,
+     "600": 7.5,
+     "700": 6,
+     "800": 5.6,
+     "850": 5.2,
+     "900": 5.2,
+     "950": 4.8,
+     "1000": 4.8,
+     "1050": 4.3,
+     "1100": 4.3,
+     "1150": 4.3,
+     "1200": 4.2,
+     "1250": 3.8,
+     "1300": 3.7,
+     "1450": 3.7,
+     "1500": 3.6,
+     "1750": 3.6,
+     "1800": 3.6
+    },
+    "diameterMm": {
+     "400": 6.2,
+     "500": 5.9,
+     "600": 5.7,
+     "700": 5.5,
+     "800": 5.5,
+     "850": 5.4,
+     "900": 5.4,
+     "950": 5.3,
+     "1000": 5.3,
+     "1050": 5.2,
+     "1100": 5.2,
+     "1150": 5.2,
+     "1200": 5.1,
+     "1250": 5.1,
+     "1300": 5.1,
+     "1450": 5,
+     "1500": 5,
+     "1750": 5.1,
+     "1800": 5.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Event 4.2",
+    "material": "carbon",
+    "spines": [
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "950",
+     "1000"
+    ],
+    "gpi": {
+     "400": 8.7,
+     "500": 7.5,
+     "600": 6.6,
+     "700": 6,
+     "800": 5.6,
+     "900": 5.1,
+     "950": 4.8,
+     "1000": 4.8
+    },
+    "diameterMm": {
+     "400": 6,
+     "500": 5.8,
+     "600": 5.6,
+     "700": 5.5,
+     "800": 5.4,
+     "900": 5.4,
+     "950": 5.3,
+     "1000": 5.2
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Evo 3.2 Performance",
+    "material": "carbon",
+    "spines": [
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900"
+    ],
+    "gpi": {
+     "400": 8.2,
+     "500": 7,
+     "600": 6.5,
+     "700": 5.7,
+     "800": 5.3,
+     "900": 4.9
+    },
+    "innerDiameterMm": 3.2
+   }
+  ],
+  "Gold Tip": [
+   {
+    "model": "30X Plus",
+    "material": "carbon",
+    "spines": [
+     "150"
+    ],
+    "gpi": {
+     "150": 8.5
+    },
+    "diameterMm": {
+     "150": 10.1
+    },
+    "innerDiameterMm": 9.1
+   },
+   {
+    "model": "30X Pro",
+    "material": "carbon",
+    "spines": [
+     "150"
+    ],
+    "gpi": {
+     "150": 8.5
+    },
+    "diameterMm": {
+     "150": 10.1
+    },
+    "innerDiameterMm": 9.1
+   },
+   {
+    "model": "Nine.3 Max Plus",
+    "material": "carbon",
+    "spines": [
+     "250"
+    ],
+    "gpi": {
+     "250": 8.3
+    },
+    "diameterMm": {
+     "250": 9.3
+    },
+    "innerDiameterMm": 8.3
+   },
+   {
+    "model": "Nine.3 Max Pro",
+    "material": "carbon",
+    "spines": [
+     "250"
+    ],
+    "gpi": {
+     "250": 8.3
+    },
+    "diameterMm": {
+     "250": 9.3
+    },
+    "innerDiameterMm": 8.3
+   },
+   {
+    "model": "Pierce Tour",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "340",
+     "300",
+     "250"
+    ],
+    "gpi": {
+     "700": 5.5,
+     "600": 6.2,
+     "500": 6.6,
+     "400": 7.6,
+     "340": 8.3,
+     "300": 9.1,
+     "250": 9.8
+    },
+    "diameterMm": {
+     "700": 5.4,
+     "600": 5.6,
+     "500": 5.6,
+     "400": 5.8,
+     "340": 5.9,
+     "300": 6.1,
+     "250": 6.2
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Series 22 Plus",
+    "material": "carbon",
+    "spines": [
+     "300"
+    ],
+    "gpi": {
+     "300": 7.3
+    },
+    "diameterMm": {
+     "300": 8.6
+    },
+    "innerDiameterMm": 7.6
+   },
+   {
+    "model": "Series 22 Pro",
+    "material": "carbon",
+    "spines": [
+     "300"
+    ],
+    "gpi": {
+     "300": 7.3
+    },
+    "diameterMm": {
+     "300": 8.6
+    },
+    "innerDiameterMm": 7.6
+   },
+   {
+    "model": "Triple X Plus",
+    "material": "carbon",
+    "spines": [
+     "100"
+    ],
+    "gpi": {
+     "100": 9.3
+    },
+    "diameterMm": {
+     "100": 10.7
+    },
+    "innerDiameterMm": 9.7
+   },
+   {
+    "model": "Triple X Pro",
+    "material": "carbon",
+    "spines": [
+     "100"
+    ],
+    "gpi": {
+     "100": 9.3
+    },
+    "diameterMm": {
+     "100": 10.7
+    },
+    "innerDiameterMm": 9.7
+   },
+   {
+    "model": "Velocity",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "340",
+     "300",
+     "250"
+    ],
+    "gpi": {
+     "700": 5.4,
+     "600": 5.9,
+     "500": 6.3,
+     "400": 7.4,
+     "340": 8.2,
+     "300": 8.8,
+     "250": 9.8
+    },
+    "diameterMm": {
+     "700": 7.1,
+     "600": 7.2,
+     "500": 7.2,
+     "400": 7.4,
+     "340": 7.5,
+     "300": 7.6,
+     "250": 7.7
+    },
+    "innerDiameterMm": 6.3
+   },
+   {
+    "model": "X-Cutter Plus",
+    "material": "carbon",
+    "spines": [
+     "250"
+    ],
+    "gpi": {
+     "250": 7.8
+    },
+    "diameterMm": {
+     "250": 9.7
+    },
+    "innerDiameterMm": 8.8
+   },
+   {
+    "model": "X-Cutter Pro",
+    "material": "carbon",
+    "spines": [
+     "250"
+    ],
+    "gpi": {
+     "250": 7.8
+    },
+    "diameterMm": {
+     "250": 9.7
+    },
+    "innerDiameterMm": 8.8
+   }
+  ],
+  "Pandarus": [
+   {
+    "model": "Alpha XT",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000"
+    ],
+    "gpi": {
+     "350": 10.1,
+     "400": 9.5,
+     "500": 8.1,
+     "600": 7.2,
+     "700": 6.6,
+     "800": 6.15,
+     "900": 6,
+     "1000": 5.48
+    },
+    "diameterMm": {
+     "350": 6.2,
+     "400": 6.1,
+     "500": 5.9,
+     "600": 5.8,
+     "700": 5.6,
+     "800": 5.6,
+     "900": 5.5,
+     "1000": 5.4
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Champion",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "800"
+    ],
+    "gpi": {
+     "300": 10.2,
+     "350": 9.12,
+     "400": 8.15,
+     "450": 7.4,
+     "500": 6.93,
+     "550": 6.53,
+     "600": 6.06,
+     "650": 5.81,
+     "700": 5.37,
+     "750": 5.18,
+     "800": 5.03
+    },
+    "diameterMm": {
+     "300": 6.2,
+     "350": 6.1,
+     "400": 5.9,
+     "450": 5.8,
+     "500": 5.7,
+     "550": 5.6,
+     "600": 5.5,
+     "650": 5.5,
+     "700": 5.4,
+     "750": 5.4,
+     "800": 5.3
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Elite CA320",
+    "material": "carbonAluminium",
+    "spines": [
+     "325",
+     "350",
+     "380",
+     "410",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "830",
+     "900",
+     "1000"
+    ],
+    "gpi": {
+     "325": 9.2,
+     "350": 8.9,
+     "380": 8.68,
+     "410": 8.6,
+     "450": 8.12,
+     "500": 7.81,
+     "550": 7.62,
+     "600": 7.06,
+     "650": 6.8,
+     "700": 6.5,
+     "750": 6.44,
+     "830": 6.2,
+     "900": 6.06,
+     "1000": 5.5
+    },
+    "diameterMm": {
+     "325": 5.8,
+     "350": 5.7,
+     "380": 5.6,
+     "410": 5.5,
+     "450": 5.3,
+     "500": 5.3,
+     "550": 5.2,
+     "600": 5.1,
+     "650": 5,
+     "700": 4.9,
+     "750": 4.9,
+     "830": 4.9,
+     "900": 4.7,
+     "1000": 4.7
+    }
+   },
+   {
+    "model": "Elite CA320 Pro",
+    "material": "carbonAluminium",
+    "spines": [
+     "340",
+     "380",
+     "420",
+     "470",
+     "520",
+     "570",
+     "620",
+     "670",
+     "720",
+     "770"
+    ],
+    "gpi": {
+     "340": 11.2,
+     "380": 10.5,
+     "420": 9.69,
+     "470": 8.96,
+     "520": 8.62,
+     "570": 8.15,
+     "620": 7.76,
+     "670": 7.47,
+     "720": 7,
+     "770": 6.96
+    },
+    "diameterMm": {
+     "340": 5.7,
+     "380": 5.6,
+     "420": 5.4,
+     "470": 5.3,
+     "520": 5.2,
+     "570": 5.1,
+     "620": 5,
+     "670": 5,
+     "720": 4.9,
+     "770": 4.8
+    }
+   },
+   {
+    "model": "Elite CA390",
+    "material": "carbonAluminium",
+    "spines": [
+     "350",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "800",
+     "850",
+     "900",
+     "1000"
+    ],
+    "gpi": {
+     "350": 10.87,
+     "400": 9.81,
+     "450": 9.13,
+     "500": 8.66,
+     "550": 8.28,
+     "600": 7.81,
+     "650": 7.56,
+     "700": 7.1,
+     "750": 6.93,
+     "800": 6.75,
+     "850": 6.5,
+     "900": 6.19,
+     "1000": 5.94
+    },
+    "diameterMm": {
+     "400": 5.9,
+     "450": 5.8,
+     "500": 5.7,
+     "550": 5.6,
+     "600": 5.5,
+     "650": 5.5,
+     "700": 5.4,
+     "750": 5.4,
+     "800": 5.3,
+     "850": 5.3,
+     "900": 5.2,
+     "1000": 5.2
+    }
+   },
+   {
+    "model": "Elite XT",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "800",
+     "850",
+     "900",
+     "950",
+     "1000"
+    ],
+    "gpi": {
+     "350": 10.5,
+     "400": 9.69,
+     "450": 8.96,
+     "500": 8.62,
+     "550": 8.15,
+     "600": 7.76,
+     "650": 7.47,
+     "700": 7,
+     "750": 6.96,
+     "800": 6.57,
+     "850": 6.53,
+     "900": 6.42,
+     "950": 6.14,
+     "1000": 5.89
+    },
+    "diameterMm": {
+     "350": 5.6,
+     "400": 5.4,
+     "450": 5.3,
+     "500": 5.2,
+     "550": 5.1,
+     "600": 5,
+     "650": 5,
+     "700": 4.9,
+     "750": 4.8,
+     "800": 4.8,
+     "850": 4.8,
+     "900": 4.7,
+     "950": 4.7,
+     "1000": 4.6
+    }
+   },
+   {
+    "model": "Ice Point",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "450",
+     "500",
+     "550",
+     "600",
+     "650",
+     "700",
+     "750",
+     "800",
+     "850",
+     "900",
+     "950",
+     "1000"
+    ],
+    "gpi": {
+     "350": 9.15,
+     "400": 9,
+     "450": 8.56,
+     "500": 7.93,
+     "550": 7.31,
+     "600": 6.9,
+     "650": 6.5,
+     "700": 6.16,
+     "750": 5.85,
+     "800": 5.56,
+     "850": 5.12,
+     "900": 5.12,
+     "950": 4.93,
+     "1000": 4.68
+    },
+    "diameterMm": {
+     "350": 5.5,
+     "400": 5.4,
+     "450": 5.3,
+     "500": 5.2,
+     "550": 5.1,
+     "600": 5,
+     "650": 4.9,
+     "700": 4.8,
+     "750": 4.8,
+     "800": 4.7,
+     "850": 4.6,
+     "900": 4.6,
+     "950": 4.6,
+     "1000": 4.4
+    }
+   },
+   {
+    "model": "Infinity",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1200",
+     "1300",
+     "1400",
+     "1500"
+    ],
+    "gpi": {
+     "350": 10.1,
+     "400": 9.5,
+     "500": 8.1,
+     "600": 7.2,
+     "700": 6.6,
+     "800": 6.15,
+     "900": 6,
+     "1000": 5.48,
+     "1100": 5,
+     "1200": 4.66,
+     "1300": 4.23,
+     "1400": 4,
+     "1500": 3.8
+    },
+    "diameterMm": {
+     "350": 6.2,
+     "400": 6.1,
+     "500": 5.9,
+     "600": 5.8,
+     "700": 5.6,
+     "800": 5.6,
+     "900": 5.5,
+     "1000": 5.4,
+     "1100": 5.3,
+     "1200": 5.3,
+     "1300": 5.2,
+     "1400": 5.1,
+     "1500": 5.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Precision",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800"
+    ],
+    "gpi": {
+     "300": 8.35,
+     "350": 7.77,
+     "400": 7.3,
+     "500": 5.86,
+     "600": 5.3,
+     "700": 4.73,
+     "800": 4.4
+    },
+    "diameterMm": {
+     "300": 7.5,
+     "350": 7.4,
+     "400": 7.4,
+     "500": 7.1,
+     "600": 7.1,
+     "700": 7,
+     "800": 6.9
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "Versus",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "450"
+    ],
+    "gpi": {
+     "300": 6.87,
+     "350": 6.75,
+     "400": 5.75,
+     "450": 5.31
+    },
+    "innerDiameterMm": 8
+   }
+  ],
+  "Rose City Archery": [
+   {
+    "model": "Port Orford Cedar",
+    "material": "wood"
+   }
+  ],
+  "Skylon": [
+   {
+    "model": "Backbone",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "700": 6.7,
+     "600": 7.4,
+     "500": 7.9,
+     "400": 9,
+     "350": 9.9
+    },
+    "diameterMm": {
+     "700": 6.4,
+     "600": 6.6,
+     "500": 6.6,
+     "400": 6.8,
+     "350": 6.9
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "Brixxon",
+    "material": "carbon",
+    "spines": [
+     "1100",
+     "1000",
+     "900",
+     "850",
+     "800",
+     "750",
+     "700",
+     "650",
+     "600",
+     "550",
+     "500",
+     "450",
+     "400"
+    ],
+    "gpi": {
+     "1100": 4.64,
+     "1000": 4.9,
+     "900": 5.34,
+     "850": 5.48,
+     "800": 5.8,
+     "750": 5.94,
+     "700": 6.17,
+     "650": 6.42,
+     "600": 7.09,
+     "550": 7.47,
+     "500": 8,
+     "450": 8.63,
+     "400": 9.47
+    },
+    "diameterMm": {
+     "1100": 5.2,
+     "1000": 5.3,
+     "900": 5.4,
+     "850": 5.4,
+     "800": 5.5,
+     "750": 5.5,
+     "700": 5.6,
+     "650": 5.6,
+     "600": 5.7,
+     "550": 5.8,
+     "500": 5.9,
+     "450": 6,
+     "400": 6.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Bruxx",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "400",
+     "350",
+     "300"
+    ],
+    "gpi": {
+     "500": 6.61,
+     "400": 7.42,
+     "350": 7.92,
+     "300": 8.52
+    },
+    "diameterMm": {
+     "500": 8.8,
+     "400": 9,
+     "350": 9,
+     "300": 9
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "Ebony",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "700": 5.24,
+     "600": 6.19,
+     "500": 6.8,
+     "400": 8.16,
+     "350": 8.7
+    },
+    "diameterMm": {
+     "700": 6.2,
+     "600": 6.4,
+     "500": 6.5,
+     "400": 6.7,
+     "350": 6.7
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "Edge",
+    "material": "carbon",
+    "spines": [
+     "800",
+     "700",
+     "600",
+     "500",
+     "400",
+     "350",
+     "300"
+    ],
+    "gpi": {
+     "800": 4.2,
+     "700": 5.12,
+     "600": 5.58,
+     "500": 5.8,
+     "400": 7.33,
+     "350": 7.61,
+     "300": 8.5
+    },
+    "diameterMm": {
+     "800": 6.9,
+     "700": 7,
+     "600": 7.1,
+     "500": 7.1,
+     "400": 7.4,
+     "350": 7.4,
+     "300": 7.6
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "Empros",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "400",
+     "350",
+     "300"
+    ],
+    "gpi": {
+     "500": 7.27,
+     "400": 8.49,
+     "350": 8.69,
+     "300": 9.5
+    },
+    "diameterMm": {
+     "500": 9,
+     "400": 9.1,
+     "350": 9.1,
+     "300": 9.2
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "Instec",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "350",
+     "300"
+    ],
+    "gpi": {
+     "700": 5.24,
+     "600": 6.19,
+     "500": 6.8,
+     "400": 8.16,
+     "350": 8.7,
+     "300": 9.44
+    },
+    "diameterMm": {
+     "700": 6.2,
+     "600": 6.4,
+     "500": 6.5,
+     "400": 6.7,
+     "350": 6.7,
+     "300": 6.9
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "Maverick",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "400",
+     "350",
+     "300"
+    ],
+    "gpi": {
+     "500": 7.7,
+     "400": 8.6,
+     "350": 9.4,
+     "300": 10.21
+    },
+    "diameterMm": {
+     "500": 7.4,
+     "400": 7.6,
+     "350": 7.7,
+     "300": 7.8
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "Novice",
+    "material": "carbon",
+    "spines": [
+     "2000",
+     "1800",
+     "1500",
+     "1300",
+     "1100",
+     "1000",
+     "900",
+     "800",
+     "700",
+     "600"
+    ],
+    "gpi": {
+     "2000": 3.6,
+     "1800": 3.89,
+     "1500": 4,
+     "1300": 4.16,
+     "1100": 4.64,
+     "1000": 4.9,
+     "900": 5.34,
+     "800": 5.8,
+     "700": 6.17,
+     "600": 7.09
+    },
+    "diameterMm": {
+     "2000": 5,
+     "1800": 5,
+     "1500": 5.1,
+     "1300": 5.2,
+     "1100": 5.2,
+     "1000": 5.3,
+     "900": 5.4,
+     "800": 5.5,
+     "700": 5.6,
+     "600": 5.7
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Paragon",
+    "material": "carbon",
+    "spines": [
+     "1000",
+     "900",
+     "850",
+     "800",
+     "750",
+     "700",
+     "650",
+     "600",
+     "550",
+     "500",
+     "450",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "1000": 4.7,
+     "900": 4.81,
+     "850": 4.94,
+     "800": 5.06,
+     "750": 5.31,
+     "700": 5.55,
+     "650": 5.83,
+     "600": 6.1,
+     "550": 6.5,
+     "500": 6.9,
+     "450": 7.42,
+     "400": 7.93,
+     "350": 8.47
+    },
+    "diameterMm": {
+     "1000": 4.5,
+     "900": 4.5,
+     "850": 4.6,
+     "800": 4.6,
+     "750": 4.6,
+     "700": 4.7,
+     "650": 4.7,
+     "600": 4.8,
+     "550": 4.8,
+     "500": 4.9,
+     "450": 5,
+     "400": 5.2,
+     "350": 5.3
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "Performa",
+    "material": "carbon",
+    "spines": [
+     "1000",
+     "900",
+     "850",
+     "800",
+     "750",
+     "700",
+     "650",
+     "600",
+     "550",
+     "500",
+     "450",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "1000": 4.7,
+     "900": 4.81,
+     "850": 4.94,
+     "800": 5.06,
+     "750": 5.31,
+     "700": 5.55,
+     "650": 5.83,
+     "600": 6.1,
+     "550": 6.5,
+     "500": 6.9,
+     "450": 7.42,
+     "400": 7.93,
+     "350": 8.47
+    },
+    "diameterMm": {
+     "1000": 4.5,
+     "900": 4.5,
+     "850": 4.6,
+     "800": 4.6,
+     "750": 4.6,
+     "700": 4.7,
+     "650": 4.7,
+     "600": 4.8,
+     "550": 4.8,
+     "500": 4.9,
+     "450": 5,
+     "400": 5.2,
+     "350": 5.3
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "Phoric",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "700": 5.4,
+     "600": 5.7,
+     "500": 6,
+     "400": 6.9,
+     "350": 7.4
+    },
+    "diameterMm": {
+     "700": 7,
+     "600": 7.1,
+     "500": 7.1,
+     "400": 7.4,
+     "350": 7.4
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "Precium",
+    "material": "carbon",
+    "spines": [
+     "1000",
+     "900",
+     "850",
+     "800",
+     "750",
+     "700",
+     "650",
+     "600",
+     "550",
+     "500",
+     "450",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "1000": 4.7,
+     "900": 4.81,
+     "850": 4.94,
+     "800": 5.06,
+     "750": 5.31,
+     "700": 5.55,
+     "650": 5.83,
+     "600": 6.1,
+     "550": 6.5,
+     "500": 6.9,
+     "450": 7.42,
+     "400": 7.93,
+     "350": 8.47
+    },
+    "diameterMm": {
+     "1000": 4.5,
+     "900": 4.5,
+     "850": 4.6,
+     "800": 4.6,
+     "750": 4.6,
+     "700": 4.7,
+     "650": 4.7,
+     "600": 4.8,
+     "550": 4.8,
+     "500": 4.9,
+     "450": 5,
+     "400": 5.2,
+     "350": 5.3
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "Preminens",
+    "material": "carbon",
+    "spines": [
+     "650",
+     "600",
+     "550",
+     "500",
+     "450",
+     "400",
+     "350"
+    ],
+    "gpi": {
+     "650": 5.83,
+     "600": 6.1,
+     "550": 6.5,
+     "500": 6.9,
+     "450": 7.42,
+     "400": 7.93,
+     "350": 8.47
+    },
+    "diameterMm": {
+     "650": 4.7,
+     "600": 4.8,
+     "550": 4.8,
+     "500": 4.9,
+     "450": 5,
+     "400": 5.2,
+     "350": 5.3
+    },
+    "innerDiameterMm": 3.2
+   },
+   {
+    "model": "Quantic",
+    "material": "carbon",
+    "spines": [
+     "700",
+     "600",
+     "500",
+     "400",
+     "350",
+     "300"
+    ],
+    "gpi": {
+     "700": 6.69,
+     "600": 7.65,
+     "500": 8.03,
+     "400": 9,
+     "350": 9.89,
+     "300": 10.92
+    },
+    "diameterMm": {
+     "700": 6.4,
+     "600": 6.6,
+     "500": 6.6,
+     "400": 6.8,
+     "350": 6.9,
+     "300": 7.1
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "Radius",
+    "material": "carbon",
+    "spines": [
+     "2000",
+     "1800",
+     "1500",
+     "1300",
+     "1100",
+     "1000",
+     "900",
+     "850",
+     "800",
+     "750",
+     "700",
+     "650",
+     "600",
+     "550",
+     "500",
+     "450",
+     "400"
+    ],
+    "gpi": {
+     "2000": 3.6,
+     "1800": 3.89,
+     "1500": 4,
+     "1300": 4.16,
+     "1100": 4.64,
+     "1000": 4.9,
+     "900": 5.34,
+     "850": 5.48,
+     "800": 5.8,
+     "750": 5.94,
+     "700": 6.17,
+     "650": 6.42,
+     "600": 7.09,
+     "550": 7.47,
+     "500": 8,
+     "450": 8.63,
+     "400": 9.47
+    },
+    "diameterMm": {
+     "2000": 5,
+     "1800": 5,
+     "1500": 5.1,
+     "1300": 5.2,
+     "1100": 5.2,
+     "1000": 5.3,
+     "900": 5.4,
+     "850": 5.4,
+     "800": 5.5,
+     "750": 5.5,
+     "700": 5.6,
+     "650": 5.6,
+     "600": 5.7,
+     "550": 5.8,
+     "500": 5.9,
+     "450": 6,
+     "400": 6.1
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "Rove",
+    "material": "carbon",
+    "spines": [
+     "500",
+     "400",
+     "350",
+     "300"
+    ],
+    "gpi": {
+     "500": 7.25,
+     "400": 7.73,
+     "350": 7.89,
+     "300": 9.68
+    },
+    "diameterMm": {
+     "500": 7.4,
+     "400": 7.4,
+     "350": 7.4,
+     "300": 7.7
+    },
+    "innerDiameterMm": 6.2
+   }
+  ],
+  "Victory": [
+   {
+    "model": "3DHV Elite",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800"
+    ],
+    "gpi": {
+     "300": 7.1,
+     "350": 6.4,
+     "400": 5.9,
+     "500": 5.1,
+     "600": 5.5,
+     "700": 5.4,
+     "800": 5
+    },
+    "diameterMm": {
+     "300": 6.5,
+     "350": 6.4,
+     "400": 6.3,
+     "500": 6.2,
+     "600": 6.2,
+     "700": 6.2,
+     "800": 6.1
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "3DHV Gamer",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800"
+    ],
+    "gpi": {
+     "300": 7.1,
+     "350": 6.4,
+     "400": 5.9,
+     "500": 5.1,
+     "600": 5.5,
+     "700": 5.4,
+     "800": 5
+    },
+    "diameterMm": {
+     "300": 6.5,
+     "350": 6.4,
+     "400": 6.3,
+     "500": 6.2,
+     "600": 6.2,
+     "700": 6.2,
+     "800": 6.1
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "3DHV Sport",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400",
+     "500",
+     "600",
+     "700",
+     "800"
+    ],
+    "gpi": {
+     "300": 7.1,
+     "350": 6.4,
+     "400": 5.9,
+     "500": 5.1,
+     "600": 5.5,
+     "700": 5.4,
+     "800": 5
+    },
+    "diameterMm": {
+     "300": 6.5,
+     "350": 6.4,
+     "400": 6.3,
+     "500": 6.2,
+     "600": 6.2,
+     "700": 6.2,
+     "800": 6.1
+    },
+    "innerDiameterMm": 5.2
+   },
+   {
+    "model": "V-Tac23 Elite",
+    "material": "carbon",
+    "spines": [
+     "270",
+     "380",
+     "480"
+    ],
+    "gpi": {
+     "270": 7.2,
+     "380": 6.8,
+     "480": 7.2
+    },
+    "diameterMm": {
+     "270": 8.9,
+     "380": 8.9,
+     "480": 8.9
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "V-Tac23 Gamer",
+    "material": "carbon",
+    "spines": [
+     "270",
+     "380",
+     "480"
+    ],
+    "gpi": {
+     "270": 7.2,
+     "380": 6.8,
+     "480": 7.2
+    },
+    "diameterMm": {
+     "270": 8.9,
+     "380": 8.9,
+     "480": 8.9
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "V-Tac23 Sport",
+    "material": "carbon",
+    "spines": [
+     "270",
+     "380",
+     "480"
+    ],
+    "gpi": {
+     "270": 7.2,
+     "380": 6.8,
+     "480": 7.2
+    },
+    "diameterMm": {
+     "270": 8.9,
+     "380": 8.9,
+     "480": 8.9
+    },
+    "innerDiameterMm": 8
+   },
+   {
+    "model": "V-Tac25 Elite",
+    "material": "carbon",
+    "spines": [
+     "300"
+    ],
+    "gpi": {
+     "300": 7.2
+    },
+    "diameterMm": {
+     "300": 9.6
+    },
+    "innerDiameterMm": 8.8
+   },
+   {
+    "model": "V-Tac25 Gamer",
+    "material": "carbon",
+    "spines": [
+     "300"
+    ],
+    "gpi": {
+     "300": 7.2
+    },
+    "diameterMm": {
+     "300": 9.6
+    },
+    "innerDiameterMm": 8.8
+   },
+   {
+    "model": "V-Tac25 Sport",
+    "material": "carbon",
+    "spines": [
+     "300"
+    ],
+    "gpi": {
+     "300": 7.2
+    },
+    "diameterMm": {
+     "300": 9.6
+    },
+    "innerDiameterMm": 8.8
+   },
+   {
+    "model": "V-Tac27 Elite",
+    "material": "carbon",
+    "spines": [
+     "220"
+    ],
+    "gpi": {
+     "220": 10.8
+    },
+    "diameterMm": {
+     "220": 10.6
+    },
+    "innerDiameterMm": 9.4
+   },
+   {
+    "model": "V-Tac27 Gamer",
+    "material": "carbon",
+    "spines": [
+     "220"
+    ],
+    "gpi": {
+     "220": 10.8
+    },
+    "diameterMm": {
+     "220": 10.6
+    },
+    "innerDiameterMm": 9.4
+   },
+   {
+    "model": "V-Tac27 Sport",
+    "material": "carbon",
+    "spines": [
+     "220"
+    ],
+    "gpi": {
+     "220": 10.8
+    },
+    "diameterMm": {
+     "220": 10.6
+    },
+    "innerDiameterMm": 9.4
+   },
+   {
+    "model": "VAP Elite",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "450",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1200"
+    ],
+    "gpi": {
+     "350": 7.8,
+     "400": 7.1,
+     "450": 6.7,
+     "500": 6.1,
+     "600": 5.5,
+     "700": 5.7,
+     "800": 5.4,
+     "900": 5,
+     "1000": 4.8,
+     "1100": 4.8,
+     "1200": 4.6
+    },
+    "diameterMm": {
+     "350": 5.9,
+     "400": 5.8,
+     "450": 5.7,
+     "500": 5.5,
+     "600": 5.4,
+     "700": 5.5,
+     "800": 5.4,
+     "900": 5.3,
+     "1000": 5.3,
+     "1100": 5.3,
+     "1200": 5.2
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "VAP Gamer",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "450",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1200"
+    ],
+    "gpi": {
+     "350": 7.8,
+     "400": 7.1,
+     "450": 6.7,
+     "500": 6.1,
+     "600": 5.5,
+     "700": 5.7,
+     "800": 5.4,
+     "900": 5,
+     "1000": 4.8,
+     "1100": 4.8,
+     "1200": 4.6
+    },
+    "diameterMm": {
+     "350": 5.9,
+     "400": 5.8,
+     "450": 5.7,
+     "500": 5.5,
+     "600": 5.4,
+     "700": 5.5,
+     "800": 5.4,
+     "900": 5.3,
+     "1000": 5.3,
+     "1100": 5.3,
+     "1200": 5.2
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "VAP Sport",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "450",
+     "500",
+     "600",
+     "700",
+     "800",
+     "900",
+     "1000",
+     "1100",
+     "1200"
+    ],
+    "gpi": {
+     "350": 7.8,
+     "400": 7.1,
+     "450": 6.7,
+     "500": 6.1,
+     "600": 5.5,
+     "700": 5.7,
+     "800": 5.4,
+     "900": 5,
+     "1000": 4.8,
+     "1100": 4.8,
+     "1200": 4.6
+    },
+    "diameterMm": {
+     "350": 5.9,
+     "400": 5.8,
+     "450": 5.7,
+     "500": 5.5,
+     "600": 5.4,
+     "700": 5.5,
+     "800": 5.4,
+     "900": 5.3,
+     "1000": 5.3,
+     "1100": 5.3,
+     "1200": 5.2
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "VF TKO",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "350",
+     "400"
+    ],
+    "gpi": {
+     "300": 9.5,
+     "350": 8.8,
+     "400": 8.1
+    },
+    "diameterMm": {
+     "300": 7.7,
+     "350": 7.5,
+     "400": 7.5
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "VFT Elite",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600"
+    ],
+    "gpi": {
+     "350": 8.7,
+     "400": 8.2,
+     "500": 6.9,
+     "600": 6.6
+    },
+    "diameterMm": {
+     "350": 7.6,
+     "400": 7.5,
+     "500": 7.3,
+     "600": 7.3
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "VFT Gamer",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600"
+    ],
+    "gpi": {
+     "350": 8.7,
+     "400": 8.2,
+     "500": 6.9,
+     "600": 6.6
+    },
+    "diameterMm": {
+     "350": 7.6,
+     "400": 7.5,
+     "500": 7.3,
+     "600": 7.3
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "VFT Sport",
+    "material": "carbon",
+    "spines": [
+     "350",
+     "400",
+     "500",
+     "600"
+    ],
+    "gpi": {
+     "350": 8.7,
+     "400": 8.2,
+     "500": 6.9,
+     "600": 6.6
+    },
+    "diameterMm": {
+     "350": 7.6,
+     "400": 7.5,
+     "500": 7.3,
+     "600": 7.3
+    },
+    "innerDiameterMm": 6.2
+   },
+   {
+    "model": "VX-27 Elite",
+    "material": "carbon",
+    "spines": [
+     "200"
+    ],
+    "gpi": {
+     "200": 8.8
+    },
+    "diameterMm": {
+     "200": 10.6
+    },
+    "innerDiameterMm": 9.7
+   },
+   {
+    "model": "VX-27 Gamer",
+    "material": "carbon",
+    "spines": [
+     "200"
+    ],
+    "gpi": {
+     "200": 8.8
+    },
+    "diameterMm": {
+     "200": 10.6
+    },
+    "innerDiameterMm": 9.7
+   },
+   {
+    "model": "VX-27 Sport",
+    "material": "carbon",
+    "spines": [
+     "200"
+    ],
+    "gpi": {
+     "200": 8.8
+    },
+    "diameterMm": {
+     "200": 10.6
+    },
+    "innerDiameterMm": 9.7
+   },
+   {
+    "model": "VXT Elite",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "355",
+     "450",
+     "550",
+     "630"
+    ],
+    "gpi": {
+     "300": 8.3,
+     "355": 7.4,
+     "450": 7.4,
+     "550": 7.1,
+     "630": 7.4
+    },
+    "diameterMm": {
+     "300": 6,
+     "355": 5.8,
+     "450": 5.8,
+     "550": 5.8,
+     "630": 5.8
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "VXT Gamer",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "355",
+     "450",
+     "550",
+     "630"
+    ],
+    "gpi": {
+     "300": 8.3,
+     "355": 7.4,
+     "450": 7.4,
+     "550": 7.1,
+     "630": 7.4
+    },
+    "diameterMm": {
+     "300": 6,
+     "355": 5.8,
+     "450": 5.8,
+     "550": 5.8,
+     "630": 5.8
+    },
+    "innerDiameterMm": 4.2
+   },
+   {
+    "model": "VXT Sport",
+    "material": "carbon",
+    "spines": [
+     "300",
+     "355",
+     "450",
+     "550",
+     "630"
+    ],
+    "gpi": {
+     "300": 8.3,
+     "355": 7.4,
+     "450": 7.4,
+     "550": 7.1,
+     "630": 7.4
+    },
+    "diameterMm": {
+     "300": 6,
+     "355": 5.8,
+     "450": 5.8,
+     "550": 5.8,
+     "630": 5.8
+    },
+    "innerDiameterMm": 4.2
+   }
+  ]
+ },
+ "fletching": {
+  "AAE": [
+   {
+    "model": "AIRAZR",
+    "lengths": [
+     "2.3\"",
+     "2.6\""
+    ],
+    "weightGr": {
+     "2.6\"": 7
+    }
+   },
+   {
+    "model": "AIRAZR Pro",
+    "lengths": [
+     "1.7\""
+    ],
+    "weightGr": 4.3
+   },
+   {
+    "model": "Elite Plastifletch",
+    "lengths": [
+     "1.6\"",
+     "2.3\"",
+     "2.6\"",
+     "4\""
+    ]
+   },
+   {
+    "model": "Hybrid",
+    "lengths": [
+     "1.6\"",
+     "1.85\"",
+     "2\"",
+     "2.3\"",
+     "2.6\"",
+     "4\""
+    ],
+    "weightGr": {
+     "1.6\"": 4,
+     "1.85\"": 3.2,
+     "2\"": 3.9,
+     "2.3\"": 5.7,
+     "2.6\"": 8,
+     "4\"": 10.6
+    }
+   },
+   {
+    "model": "Hybrid HP",
+    "lengths": [
+     "2\""
+    ],
+    "weightGr": 6.2
+   },
+   {
+    "model": "Hybrid PHNX"
+   },
+   {
+    "model": "Plastifletch Max",
+    "lengths": [
+     "1.6\"",
+     "2\"",
+     "2.3\""
+    ]
+   },
+   {
+    "model": "Pro Max",
+    "lengths": [
+     "1.7\""
+    ],
+    "weightGr": 4.9
+   },
+   {
+    "model": "Trad",
+    "lengths": [
+     "2.6\"",
+     "4\""
+    ]
+   },
+   {
+    "model": "WAV"
+   },
+   {
+    "model": "WAV 2.0"
+   }
+  ],
+  "Bohning": [
+   {
+    "model": "Air",
+    "lengths": [
+     "2\""
+    ],
+    "weightGr": 4.5
+   },
+   {
+    "model": "Alpha",
+    "lengths": [
+     "2.8\""
+    ],
+    "weightGr": 8.5
+   },
+   {
+    "model": "Atlas",
+    "lengths": [
+     "2.8\""
+    ],
+    "weightGr": 9
+   },
+   {
+    "model": "Blazer",
+    "lengths": [
+     "2\""
+    ],
+    "weightGr": 6.1
+   },
+   {
+    "model": "Blazer X2"
+   },
+   {
+    "model": "Griffin",
+    "lengths": [
+     "1\"",
+     "2\""
+    ],
+    "weightGr": {
+     "1\"": 1.2,
+     "2\"": 6.2
+    }
+   },
+   {
+    "model": "Heat",
+    "lengths": [
+     "2.5\""
+    ],
+    "weightGr": 6.1
+   },
+   {
+    "model": "Ice",
+    "lengths": [
+     "3\""
+    ],
+    "weightGr": 6.5
+   },
+   {
+    "model": "Mini Blazer"
+   },
+   {
+    "model": "X3 Vane",
+    "lengths": [
+     "1.5\"",
+     "1.75\"",
+     "2.25\"",
+     "3\"",
+     "3.5\""
+    ],
+    "weightGr": {
+     "1.5\"": 3.3,
+     "1.75\"": 4.3,
+     "2.25\"": 5.8,
+     "3\"": 10,
+     "3.5\"": 11.6
+    }
+   },
+   {
+    "model": "X Vane",
+    "lengths": [
+     "1.5\"",
+     "1.75\"",
+     "2.25\"",
+     "3\"",
+     "3.5\""
+    ],
+    "weightGr": {
+     "1.5\"": 3.3,
+     "1.75\"": 4.3,
+     "2.25\"": 5.8,
+     "3\"": 10,
+     "3.5\"": 11.6
+    }
+   },
+   {
+    "model": "Zen",
+    "lengths": [
+     "4\""
+    ],
+    "weightGr": 12.5
+   }
+  ],
+  "Easton": [
+   {
+    "model": "Bully",
+    "lengths": [
+     "2\""
+    ],
+    "weightGr": 6.5
+   },
+   {
+    "model": "Diamond",
+    "lengths": [
+     "1.75\"",
+     "2.375\"",
+     "2.875\"",
+     "3.875\""
+    ],
+    "weightGr": {
+     "1.75\"": 3,
+     "2.375\"": 4,
+     "2.875\"": 6,
+     "3.875\"": 8
+    }
+   }
+  ],
+  "Flex-Fletch": [
+   {
+    "model": "FFP-150",
+    "lengths": [
+     "1.5\""
+    ]
+   },
+   {
+    "model": "FFP-175",
+    "lengths": [
+     "1.75\""
+    ]
+   },
+   {
+    "model": "FFP-187",
+    "lengths": [
+     "1.87\""
+    ]
+   },
+   {
+    "model": "FFP-200",
+    "lengths": [
+     "2\""
+    ]
+   },
+   {
+    "model": "FFP-225",
+    "lengths": [
+     "2.25\""
+    ]
+   },
+   {
+    "model": "FFP-250",
+    "lengths": [
+     "2.5\""
+    ]
+   },
+   {
+    "model": "FFP-300",
+    "lengths": [
+     "3\""
+    ],
+    "weightGr": 6.1
+   },
+   {
+    "model": "FFP-360",
+    "lengths": [
+     "3.6\""
+    ],
+    "weightGr": 7.7
+   },
+   {
+    "model": "FFP-360X",
+    "lengths": [
+     "3.6\""
+    ]
+   },
+   {
+    "model": "FFP-418",
+    "lengths": [
+     "4.18\""
+    ]
+   },
+   {
+    "model": "FFP-418X",
+    "lengths": [
+     "4.18\""
+    ]
+   },
+   {
+    "model": "FFS-212"
+   },
+   {
+    "model": "FHP-200 Flash",
+    "lengths": [
+     "2\""
+    ]
+   },
+   {
+    "model": "Pro 2.5",
+    "lengths": [
+     "2.5\""
+    ],
+    "weightGr": 5.6
+   }
+  ],
+  "Gas Pro": [
+   {
+    "model": "Field Efficient 2\"",
+    "lengths": [
+     "2\""
+    ]
+   },
+   {
+    "model": "GP Spin 1.75\"",
+    "lengths": [
+     "1.75\""
+    ]
+   },
+   {
+    "model": "GP-175",
+    "lengths": [
+     "1.75\""
+    ]
+   },
+   {
+    "model": "GP-200",
+    "lengths": [
+     "2\""
+    ]
+   },
+   {
+    "model": "GP-280",
+    "lengths": [
+     "2.8\""
+    ],
+    "weightGr": 7.1
+   },
+   {
+    "model": "GP-400",
+    "lengths": [
+     "4\""
+    ],
+    "weightGr": 9.8
+   },
+   {
+    "model": "GS-200",
+    "lengths": [
+     "2\""
+    ],
+    "weightGr": 4.4
+   },
+   {
+    "model": "GS-275",
+    "lengths": [
+     "2.75\""
+    ]
+   },
+   {
+    "model": "GX-187",
+    "lengths": [
+     "1.87\""
+    ]
+   },
+   {
+    "model": "Indoor Efficient 4\"",
+    "lengths": [
+     "4\""
+    ]
+   },
+   {
+    "model": "Indoor Efficient 4.75\"",
+    "lengths": [
+     "4.75\""
+    ]
+   },
+   {
+    "model": "NACA 170",
+    "lengths": [
+     "1.7\""
+    ],
+    "weightGr": 6.7
+   },
+   {
+    "model": "NACA 200"
+   },
+   {
+    "model": "NACA 200 Performance",
+    "lengths": [
+     "2.05\""
+    ],
+    "weightGr": 6.4
+   },
+   {
+    "model": "NACA 300 Performance",
+    "lengths": [
+     "72,5 mm"
+    ],
+    "weightGr": 10.8
+   },
+   {
+    "model": "Natural Feathers Parabolic"
+   },
+   {
+    "model": "Natural Feathers Shield"
+   },
+   {
+    "model": "Olympic Efficient 1.75\"",
+    "lengths": [
+     "1.75\""
+    ]
+   },
+   {
+    "model": "Recurve Efficient HP 1.75\"",
+    "lengths": [
+     "1.75\""
+    ]
+   },
+   {
+    "model": "Soft+ 2\" Ultra",
+    "lengths": [
+     "2\""
+    ],
+    "weightGr": 1
+   },
+   {
+    "model": "Soft+ Olympic 1.75\"",
+    "lengths": [
+     "1.75\""
+    ]
+   },
+   {
+    "model": "Spin 2\" Parabolic",
+    "lengths": [
+     "2\""
+    ]
+   },
+   {
+    "model": "Spin 2\" Shield",
+    "lengths": [
+     "2\""
+    ]
+   },
+   {
+    "model": "Spin 2.5\" Shield",
+    "lengths": [
+     "2.5\""
+    ]
+   },
+   {
+    "model": "Spin 2.8\" Shield",
+    "lengths": [
+     "2.8\""
+    ]
+   },
+   {
+    "model": "Spin 3\" Shield",
+    "lengths": [
+     "3\""
+    ]
+   },
+   {
+    "model": "Target 2.5\" Medium Shield",
+    "lengths": [
+     "2.5\""
+    ]
+   },
+   {
+    "model": "Target Efficient"
+   },
+   {
+    "model": "Wind Efficient 2\"",
+    "lengths": [
+     "2\""
+    ]
+   },
+   {
+    "model": "X-Shield 2\"",
+    "lengths": [
+     "2\""
+    ]
+   }
+  ],
+  "Gateway": [
+   {
+    "model": "Full Length"
+   },
+   {
+    "model": "Parabolic"
+   },
+   {
+    "model": "Rayzr"
+   },
+   {
+    "model": "Shield"
+   }
+  ],
+  "Kurly Vanes": [
+   {
+    "model": "40mm",
+    "lengths": [
+     "40 mm"
+    ]
+   },
+   {
+    "model": "45mm",
+    "lengths": [
+     "45 mm"
+    ]
+   },
+   {
+    "model": "50mm",
+    "lengths": [
+     "50 mm"
+    ]
+   },
+   {
+    "model": "55mm",
+    "lengths": [
+     "55 mm"
+    ]
+   },
+   {
+    "model": "70mm",
+    "lengths": [
+     "70 mm"
+    ]
+   }
+  ],
+  "Range-O-Matic": [
+   {
+    "model": "Spin-Wing",
+    "lengths": [
+     "1.75\"",
+     "2\""
+    ],
+    "weightGr": {
+     "1.75\"": 0.6,
+     "2\"": 0.7
+    }
+   },
+   {
+    "model": "Spin-Wing Elite"
+   },
+   {
+    "model": "Spin-Wing VLD",
+    "lengths": [
+     "1.75\""
+    ],
+    "weightGr": 0.6
+   },
+   {
+    "model": "Spin-Wing XR"
+   }
+  ],
+  "Trueflight": [
+   {
+    "model": "Barred"
+   },
+   {
+    "model": "Brite Stripes"
+   },
+   {
+    "model": "Full Length"
+   },
+   {
+    "model": "Parabolic",
+    "lengths": [
+     "3\"",
+     "4\"",
+     "5\""
+    ],
+    "weightGr": {
+     "3\"": 1.6,
+     "4\"": 2.3,
+     "5\"": 3.2
+    }
+   },
+   {
+    "model": "Round Back"
+   },
+   {
+    "model": "Shield Back"
+   },
+   {
+    "model": "Shield Back HP"
+   },
+   {
+    "model": "Shield Cut",
+    "lengths": [
+     "3\"",
+     "4\"",
+     "5\""
+    ],
+    "weightGr": {
+     "3\"": 2,
+     "4\"": 2.3,
+     "5\"": 3.2
+    }
+   }
+  ],
+  "XS Wings": [
+   {
+    "model": "40mm",
+    "lengths": [
+     "40 mm"
+    ]
+   },
+   {
+    "model": "50mm High Profile",
+    "lengths": [
+     "50 mm"
+    ]
+   },
+   {
+    "model": "50mm Low Profile",
+    "lengths": [
+     "50 mm"
+    ]
+   },
+   {
+    "model": "60mm High Profile",
+    "lengths": [
+     "60 mm"
+    ]
+   },
+   {
+    "model": "60mm Low Profile",
+    "lengths": [
+     "60 mm"
+    ]
+   },
+   {
+    "model": "70mm Round",
+    "lengths": [
+     "70 mm"
+    ]
+   },
+   {
+    "model": "100mm",
+    "lengths": [
+     "100 mm"
+    ]
+   }
+  ]
+ },
+ "nocks": {
+  "AAE": [
+   {
+    "model": "IP Nock",
+    "fitting": "press-fit",
+    "size": ".165 · .205 · .245",
+    "weightGr": {
+     ".165": 7,
+     ".205": 8.2,
+     ".245": 9.6
+    }
+   },
+   {
+    "model": "IP Pin Nock",
+    "fitting": "pin"
+   },
+   {
+    "model": "Plastinock",
+    "fitting": "a cono",
+    "size": "1/4 · 9/32 · 5/16 · 11/32",
+    "weightGr": {
+     "1/4": 6,
+     "9/32": 6,
+     "5/16": 11,
+     "11/32": 14
+    }
+   },
+   {
+    "model": "Z-Nock",
+    "fitting": "a cono",
+    "size": "1/4 · 9/32 · 5/16 · 11/32"
+   }
+  ],
+  "Beiter": [
+   {
+    "model": "Hunter Nock",
+    "fitting": "press-fit (bushing)",
+    "size": "Hunter (simmetrica)"
+   },
+   {
+    "model": "In-Out Hunter Nock",
+    "fitting": "in-out",
+    "size": "Hunter (simmetrica)"
+   },
+   {
+    "model": "In-Out Nock",
+    "fitting": "in-out",
+    "size": "per asta (X10, ACE, Nano…)"
+   },
+   {
+    "model": "Insert Hunter Nock",
+    "fitting": "press-fit",
+    "size": "Hunter (simmetrica)"
+   },
+   {
+    "model": "Insert Nock",
+    "fitting": "press-fit",
+    "size": "per diametro interno · #1 · #2",
+    "weightGr": {
+     ".166": 8
+    }
+   },
+   {
+    "model": "Nock",
+    "fitting": "press-fit (bushing)",
+    "size": "#1 · #2"
+   },
+   {
+    "model": "Out Nock",
+    "fitting": "out",
+    "size": "per diametro esterno (4,70 · 5,2 …)",
+    "weightGr": {
+     "4,70": 7.1,
+     "5,2": 9.1
+    }
+   },
+   {
+    "model": "Pin Nock",
+    "fitting": "pin",
+    "size": "#1 · #2 · Hunter"
+   },
+   {
+    "model": "Pin-Out Hunter Nock",
+    "fitting": "pin",
+    "size": "Hunter (simmetrica)"
+   },
+   {
+    "model": "Pin-Out Nock",
+    "fitting": "pin",
+    "size": "per pin (X10, ACE, Nano-XR)"
+   }
+  ],
+  "Bohning": [
+   {
+    "model": "A Nock",
+    "fitting": "press-fit",
+    "size": ".204",
+    "weightGr": 7
+   },
+   {
+    "model": "Apex Nock"
+   },
+   {
+    "model": "Blazer Nock",
+    "fitting": "press-fit",
+    "size": ".246"
+   },
+   {
+    "model": "Blazer Pin Nock",
+    "fitting": "pin"
+   },
+   {
+    "model": "Classic Nock",
+    "fitting": "a cono",
+    "size": "5/16 · 11/32",
+    "weightGr": {
+     "5/16": 10,
+     "11/32": 13
+    }
+   },
+   {
+    "model": "F Nock",
+    "fitting": "press-fit",
+    "size": ".166",
+    "weightGr": 6.5
+   },
+   {
+    "model": "H.E. Nock",
+    "fitting": "press-fit",
+    "size": ".231",
+    "weightGr": 8
+   },
+   {
+    "model": "Legend Nock",
+    "fitting": "a cono",
+    "size": "9/32 · 5/16",
+    "weightGr": {
+     "9/32": 8,
+     "5/16": 11
+    }
+   },
+   {
+    "model": "Original Pin Nock",
+    "fitting": "pin"
+   },
+   {
+    "model": "Signature Nock",
+    "fitting": "press-fit",
+    "size": ".246",
+    "weightGr": 12
+   },
+   {
+    "model": "Smooth Release Insert Nock",
+    "fitting": "press-fit",
+    "size": ".246",
+    "weightGr": 7
+   },
+   {
+    "model": "Smooth Release Pin Nock",
+    "fitting": "pin"
+   },
+   {
+    "model": "T Nock",
+    "fitting": "a cono",
+    "size": "1/4 · 9/32 · 5/16 · 11/32",
+    "weightGr": {
+     "1/4": 6,
+     "9/32": 8,
+     "5/16": 14,
+     "11/32": 15
+    }
+   }
+  ],
+  "Carbon Express": [
+   {
+    "model": "LaunchPad",
+    "fitting": "press-fit",
+    "size": ".166 · .234 · .244",
+    "weightGr": {
+     ".234": 9,
+     ".244": 9.9
+    }
+   }
+  ],
+  "Easton": [
+   {
+    "model": "3D Super Nock",
+    "fitting": "press-fit (Super UNI bushing)",
+    "size": "6,5 mm",
+    "weightGr": 13
+   },
+   {
+    "model": "G Nock",
+    "fitting": "press-fit",
+    "size": "4 mm (small, large)",
+    "weightGr": 6
+   },
+   {
+    "model": "H Nock",
+    "fitting": "press-fit",
+    "size": "6 mm",
+    "weightGr": 9
+   },
+   {
+    "model": "Pin Nock",
+    "fitting": "pin",
+    "size": "small · large",
+    "weightGr": 2
+   },
+   {
+    "model": "Super Nock",
+    "fitting": "press-fit (Super UNI bushing)",
+    "size": "6,5 mm",
+    "weightGr": 8
+   },
+   {
+    "model": "X Nock",
+    "fitting": "press-fit",
+    "size": "5 mm",
+    "weightGr": 9
+   }
+  ],
+  "Gas Pro": [
+   {
+    "model": "Nock 6.2 Eagle",
+    "fitting": "press-fit",
+    "size": "6,2 mm"
+   }
+  ],
+  "Gold Tip": [
+   {
+    "model": "Accu-Lite",
+    "fitting": "press-fit",
+    "size": ".246",
+    "weightGr": 8.3
+   },
+   {
+    "model": "GT Series",
+    "fitting": "press-fit",
+    "size": ".246",
+    "weightGr": 12.2
+   },
+   {
+    "model": "GTO Nock",
+    "fitting": "press-fit",
+    "size": ".166",
+    "weightGr": 5.3
+   }
+  ],
+  "Skylon": [
+   {
+    "model": "Compound Pin Nock",
+    "fitting": "pin"
+   },
+   {
+    "model": "Pin Nock",
+    "fitting": "pin"
+   }
+  ],
+  "Victory": [
+   {
+    "model": "Pin Bushing",
+    "fitting": "pin (bushing)",
+    "size": "per asta (VAP, VForce, V-Tac)",
+    "weightGr": {
+     "VForce": 11,
+     "VAP": 12,
+     "V-Tac25": 16,
+     "V-Tac23": 17,
+     "27": 18
+    }
+   },
+   {
+    "model": "Press Fit Nock",
+    "fitting": "press-fit",
+    "size": ".166",
+    "weightGr": 6
+   }
+  ]
+ },
+ "lists": {
+  "traditionalBow": {
+   "Bear": [
+    "Grizzly",
+    "Grizzly Hunter",
+    "Kodiak Magnum",
+    "Main Stream",
+    "Montana",
+    "North Branch",
+    "South Branch",
+    "Super Grizzly",
+    "Super Kodiak"
+   ],
+   "Bearpaw": [
+    "Big Bear",
+    "Hungarian Horsebow",
+    "Mohawk",
+    "Mohawk Hunter",
+    "Mongolian Horsebow",
+    "Skythian Horsebow",
+    "Strongbow"
+   ],
+   "Black Widow": [
+    "KB",
+    "PA",
+    "PCH",
+    "PL",
+    "PMA",
+    "PSA",
+    "PSR",
+    "PTF"
+   ],
+   "Bodnik": [
+    "Eagle Stick",
+    "Quick Stick",
+    "Slick Stick"
+   ],
+   "Border": [
+    "Black Douglas",
+    "Covert Hunter",
+    "Hawk"
+   ],
+   "Buck Trail": [
+    "Elite Black Talon",
+    "Elite Meridian",
+    "Elite Orel",
+    "Flint",
+    "Hayk",
+    "Volon"
+   ],
+   "Falco": [
+    "Epos",
+    "Icon",
+    "Legend"
+   ],
+   "Freddie Archery": [
+    "Authentic I",
+    "Authentic II",
+    "Black Shadow",
+    "Dragon",
+    "Kingdom",
+    "Nomad",
+    "Warrior",
+    "Zenith"
+   ],
+   "Hoyt": [
+    "Buffalo",
+    "Satori"
+   ],
+   "Martin": [
+    "Dream Catcher",
+    "Hunter",
+    "Jaguar",
+    "Saber",
+    "X-200"
+   ],
+   "Old Mountain": [
+    "Viper",
+    "Vivace",
+    "Warrior"
+   ],
+   "Penthalon": [
+    "Blackfoot",
+    "Chapman",
+    "Creed",
+    "Hero",
+    "Hopi",
+    "Mohican",
+    "Omaha",
+    "Shadow"
+   ],
+   "Samick": [
+    "Deer Master",
+    "Journey",
+    "Polaris",
+    "Red Stag",
+    "Sage"
+   ],
+   "TradTech": [
+    "Black Max",
+    "Titan",
+    "Trident"
+   ],
+   "Wild Mountain": [
+    "Apalachee",
+    "Black Summit",
+    "Horizon",
+    "Little Peak",
+    "Sierra"
+   ]
+  }
+ }
+}

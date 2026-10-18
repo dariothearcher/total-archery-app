@@ -4,13 +4,14 @@
 //
 // VERSION and FILES are written by tool/finish_web.py after the build; the
 // online demo has no service worker.
-const VERSION = 'f030415459ed';
+const VERSION = '640371e5ec4c';
 const FILES = [
   "./",
   "assets/AssetManifest.bin",
   "assets/AssetManifest.bin.json",
   "assets/FontManifest.json",
   "assets/NOTICES",
+  "assets/assets/catalog/catalog.json",
   "assets/assets/fonts/BarlowCondensed-Bold.ttf",
   "assets/assets/fonts/BarlowCondensed-Medium.ttf",
   "assets/assets/fonts/BarlowCondensed-SemiBold.ttf",

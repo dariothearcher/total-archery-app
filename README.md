@@ -14,9 +14,9 @@
 
 - **Segni le frecce toccando la visuale** (o con la tastiera): il punteggio lo fa l'app.
 - **Il riepilogo appena finisci**: media, X e 10, confronto con la volta prima, mappa degli impatti.
-- **Statistiche chiare**: dove vanno le frecce, rosata e centratura, record personali.
+- **Statistiche chiare**: dove vanno le frecce, rosata e centratura con gli indicatori degli istruttori, tempo in ancoraggio, record personali.
 - **Campagna e 3D**: percorsi Hunter & Field, sagome del tuo campo, stima delle distanze, tacche del mirino.
-- **Attrezzatura e messa a punto**, esercizi, timer di tiro, backup ed esportazione in PDF.
+- **Attrezzatura e messa a punto** con i suggerimenti dal catalogo, esercizi (anche il walk-back), timer di tiro, backup ed esportazione in PDF e CSV.
 
 Outdoor, indoor, campagna e 3D; olimpico, compound, arco nudo, longbow e tradizionale.
 In italiano, inglese, spagnolo, francese e tedesco.
@@ -48,7 +48,7 @@ La **demo** invece parte con i dati di un arciere di esempio e li azzera quando 
 **I tuoi dati restano sul telefono.** Total Archery non raccoglie, non invia e non vende nessun dato.
 
 - Sessioni, frecce, statistiche, attrezzatura, messa a punto e diario sono salvati solo nella memoria del telefono, dentro l'app. Non c'è un server e non c'è un account: nessuno, nemmeno chi ha fatto l'app, può vederli.
-- L'app non ha il permesso di collegarsi a internet: niente statistiche d'uso, pubblicità, segnalazione degli errori o servizi di altri.
+- L'app si collega a internet per una cosa sola: una volta al giorno chiede al sito il numero dell'ultima versione, per avvisarti quando ce n'è una nuova. Non invia nessun tuo dato; GitHub, che ospita il sito, vede l'indirizzo IP del telefono come per qualsiasi pagina web. Si spegne in Impostazioni → Aggiornamenti. Niente statistiche d'uso, pubblicità, segnalazione degli errori o servizi di altri.
 - I dati escono dal telefono solo quando lo decidi tu (backup, esportazione in PDF o CSV, immagine da condividere) e vanno dove scegli; da lì vale l'informativa del servizio che usi.
 - Se sul telefono è attivo il backup di Google, Android può copiare i dati dell'app nel tuo account Google: è una funzione del telefono, che gestisci nelle impostazioni di Android.
 - Disinstallando l'app, o con "Cancella dati" nelle impostazioni di Android, tutti i dati vengono eliminati dal telefono.
@@ -59,7 +59,7 @@ La **demo** invece parte con i dati di un arciere di esempio e li azzera quando 
 
 La stessa informativa è nell'app, in **Altro → Privacy**. Scaricando l'app da questa pagina valgono anche le [condizioni](https://docs.github.com/it/site-policy/github-terms/github-terms-of-service) e l'[informativa privacy](https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement) di GitHub.
 
-*Aggiornata il 30 settembre 2026.*
+*Aggiornata il 19 ottobre 2026.*
 
 ## Chi pubblica l'app
 

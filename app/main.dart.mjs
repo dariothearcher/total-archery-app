@@ -506,7 +506,7 @@ class CompiledApp {
       VM: (x0,x1) => x0.index(x1),
       VN: x0 => x0.response,
       VO: x0 => x0.read(),
-      VP: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
+      VP: (x0,x1) => x0.item(x1),
       W: o => {
         if (o === undefined || o === null) return 0;
         if (typeof o === 'boolean') return 1;
@@ -553,7 +553,7 @@ class CompiledApp {
       WM: x0 => x0.openKeyCursor(),
       WN: (x0,x1) => { x0.responseType = x1 },
       WO: x0 => x0.value,
-      WP: x0 => x0.length,
+      WP: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
       X: x0 => x0.dotAll,
       XB: (x0,x1,x2) => new Uint8Array(x0,x1,x2),
       XC: (x0,x1,x2,x3) => x0.setProperty(x1,x2,x3),
@@ -569,7 +569,7 @@ class CompiledApp {
       XM: x0 => x0.primaryKey,
       XN: x0 => x0.vendor,
       XO: x0 => x0.done,
-      XP: (x0,x1) => x0.item(x1),
+      XP: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
       Y: x0 => x0.unicode,
       YB: (x0,x1,x2) => new DataView(x0,x1,x2),
       YC: x0 => x0.style,
@@ -585,7 +585,7 @@ class CompiledApp {
       YM: (x0,x1,x2) => x0.open(x1,x2),
       YN: (x0,x1) => x0.open(x1),
       YO: x0 => x0.cancel(),
-      YP: x0 => x0.size,
+      YP: x0 => x0.name,
       Z: x0 => x0.ignoreCase,
       ZB: (o, p) => o[p],
       ZC: x0 => x0.debugShowSemanticsNodes,
@@ -601,7 +601,7 @@ class CompiledApp {
       ZM: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
       ZN: (x0,x1) => x0.delete(x1),
       ZO: x0 => x0.body,
-      ZP: x0 => x0.name,
+      ZP: x0 => x0.size,
       a: x0 => x0.multiline,
       aB: (o) => new DataView(o.buffer, o.byteOffset, o.byteLength),
       aC: (x0,x1) => x0.warn(x1),
@@ -617,7 +617,7 @@ class CompiledApp {
       aM: (x0,x1) => { x0.onupgradeneeded = x1 },
       aN: x0 => new Response(x0),
       aO: x0 => x0.headers,
-      aP: x0 => x0.type,
+      aP: x0 => x0.parentNode,
       b: (exn) => {
         if (exn instanceof Error) {
           return exn.stack;
@@ -639,7 +639,7 @@ class CompiledApp {
       bM: x0 => ({autoIncrement: x0}),
       bN: (x0,x1,x2) => x0.put(x1,x2),
       bO: x0 => x0.signal,
-      bP: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
+      bP: x0 => x0.length,
       c: (c) =>
       queueMicrotask(() => dartInstance.exports.$invokeCallback(c)),
       cB: o => o.byteOffset,
@@ -656,7 +656,7 @@ class CompiledApp {
       cM: (x0,x1,x2) => x0.createObjectStore(x1,x2),
       cN: x0 => x0.caches,
       cO: x0 => x0.update(),
-      cP: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
+      cP: x0 => x0.files,
       d: (x0,x1) => x0.didCreateEngineInitializer(x1),
       dB: o => o.buffer,
       dC: (o, c) => o instanceof c,
@@ -672,7 +672,7 @@ class CompiledApp {
       dM: x0 => ({unique: x0}),
       dN: (x0,x1) => x0.match(x1),
       dO: x0 => x0.hostElement,
-      dP: x0 => x0.files,
+      dP: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
       e: (wasmFunction,f) => finalizeWrapper(f, function(x0) { return wasmFunction(f,arguments.length,x0) }),
       eB: Function.prototype.call.bind(DataView.prototype.getUint8),
       eC: (x0,x1) => x0[x1],
