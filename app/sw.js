@@ -4,7 +4,7 @@
 //
 // VERSION and FILES are written by tool/finish_web.py after the build; the
 // online demo has no service worker.
-const VERSION = '640371e5ec4c';
+const VERSION = '804b3db150a1';
 const FILES = [
   "./",
   "assets/AssetManifest.bin",
