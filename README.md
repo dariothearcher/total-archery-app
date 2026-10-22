@@ -13,7 +13,7 @@
 ## Cosa fa
 
 - **Segni le frecce toccando la visuale** (o con la tastiera): il punteggio lo fa l'app.
-- **Il riepilogo appena finisci**: media, X e 10, confronto con la volta prima, mappa degli impatti.
+- **Il riepilogo appena finisci**: media, X e 10, confronto con la volta prima, mappa degli impatti, indicatori, stanchezza e volée per volée.
 - **Statistiche chiare**: dove vanno le frecce, rosata e centratura con gli indicatori degli istruttori, tempo in ancoraggio, record personali.
 - **Campagna e 3D**: percorsi Hunter & Field, sagome del tuo campo, stima delle distanze, tacche del mirino.
 - **Attrezzatura e messa a punto** con i suggerimenti dal catalogo, esercizi (anche il walk-back), timer di tiro, backup ed esportazione in PDF e CSV.
